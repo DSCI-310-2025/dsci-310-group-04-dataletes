@@ -1,4 +1,4 @@
-** the project title
+## the project title
 Authors: Ritisha Jhamb, Aarav Mahajan, and Roy Chen
 
 
