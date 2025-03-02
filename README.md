@@ -28,7 +28,7 @@ To run the analysis and generate results without manual intervention:
   jupyter nbconvert --to notebook --execute notebooks/imdb_analysis.ipynb``
   
 
-###Interactive Mode (Exploring in Jupyter Lab)
+### Interactive Mode (Exploring in Jupyter Lab)
 
 - Navigate to the root of this repository (if not already there)
 - Start the Docker container using `docker-compose`
@@ -61,12 +61,8 @@ Makefile Dependencies:
 - Windows: Use Git Bash or install Make for Windows
 
 
-##Licenses: 
+## License:
 
-
-
-
-- a short summary of the project (view from 10,000 feet)
-- - how to run your data analysis
-  - - a list of the dependencies needed to run your analysis
-    -  - the names of the licenses contained in LICENSE.md
+This project is offered under the [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).  
+The software provided in this project is offered under the [MIT open source license](https://opensource.org/licenses/MIT).  
+See the [`LICENSE.md`](LICENSE.md) file for more information.
