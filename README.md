@@ -26,11 +26,12 @@ To run the analysis and generate results without manual intervention:
 
 Clone this repository and navigate to the project root. Run the following Docker command in your terminal:
 
-`docker run --rm \
+``docker run --rm \
   -p 8888:8888 \
   -v "$(pwd)":/opt/notebooks/billboard-chart-prediction \
   your-docker-image-name:v0.1.0 \
-  jupyter nbconvert --to notebook --execute notebooks/imdb_analysis.ipynb `
+  jupyter nbconvert --to notebook --execute notebooks/imdb_analysis.ipynb``
+
 
   
 
