@@ -11,13 +11,14 @@ This project builds a regression model using the k-nearest neighbors (kNN) algor
 You can view the **full analysis report** [here](imdb_analysis.ipynb).
 
 ---
-##Usage
+## Usage
 We use a Docker container to ensure a reproducible computational environment. There are two ways to execute the project:
 
-###Non-Interactive Mode (Fully Automated Execution)
+### Non-Interactive Mode (Fully Automated Execution)
 
 To run the analysis and generate results without manual intervention:
-Clone this repository and navigate to the project root. Run the following Docker command in your terminal:
+- Clone this repository and navigate to the project root.
+-  Run the following Docker command in your terminal:
 
 ``
    docker run --rm \
@@ -33,10 +34,8 @@ Clone this repository and navigate to the project root. Run the following Docker
 - Start the Docker container using `docker-compose`
 - Copy the Jupyter Lab URL from the terminal output (it will look something like http://127.0.0.1:8888/lab?token=your_token).
 - Paste the URL into your web browser.
-
-Run the Notebook:
-Navigate to notebooks/imdb_analysis.ipynb
-Click Kernel > Restart & Run All to execute the entire analysis.
+- Run the Notebook: Navigate to `notebooks/imdb_analysis.ipynb`
+- Click **Kernel > Restart** & **Run All** to execute the entire analysis.
 - Shut down the container when finished: `docker-compose down`
 
 ## Dependencies 
