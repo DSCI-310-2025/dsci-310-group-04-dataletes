@@ -9,7 +9,7 @@ This project builds a regression model using the k-nearest neighbors (kNN) algor
 ---
 
 ## Report
-You can view the **full analysis report** [here](imdb_analysis.ipynb).
+You can view the **full analysis report** [here](rolling_stone_analysis.ipynb).
 
 ---
 ## Usage
