@@ -11,15 +11,13 @@ USER root
 
 # Install R
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
+    apt-get install -y --no-install-recommends\
     r-base \
     r-base-dev && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install IRKernel
-RUN R -e "install.packages('IRkernel', repos='http://cran.r-project.org')"
-
-
+# Install R dependencies
+RUN R -e "install.packages(c('IRkernel', 'tidyr', 'readr', 'ggplot2', 'caret', 'lattice'), repos='http://cran.r-project.org')"
 # Install Jupyter dependencies
 WORKDIR /tmp
 RUN mamba install --yes \
@@ -31,14 +29,11 @@ RUN mamba install --yes \
     mamba clean --all -f -y && \
     jupyter lab clean
 
-# Register IRKernel (still needs to be done as a Jupyter user)
-USER ${NB_UID}
 RUN R -e "IRkernel::installspec(user = FALSE)"
-
-# Switch back to root to fix permissions
-USER root
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
+
+USER ${NB_UID}
 
 # Expose Jupyter port
 ENV JUPYTER_PORT=8888
