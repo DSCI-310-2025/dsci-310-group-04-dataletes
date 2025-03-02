@@ -1,4 +1,5 @@
-Predicting Weeks on Billboard for Rolling Stone's Top 500 Albums
+# Predicting Weeks on Billboard for Rolling Stone's Top 500 Albums
+
 Authors: Ritisha Jhamb, Aarav Mahajan, and Roy Chen
 
 ## **About**  
