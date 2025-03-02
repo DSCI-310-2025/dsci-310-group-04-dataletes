@@ -28,10 +28,12 @@ RUN mamba install --yes \
     jupyter server --generate-config && \
     mamba clean --all -f -y && \
     jupyter lab clean
-
+RUN mkdir -p /home/${NB_USER}/data
 RUN R -e "IRkernel::installspec(user = FALSE)"
 RUN fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}"
+    fix-permissions "/home/${NB_USER}" && \
+    fix-permissions "/home/${NB_USER}/data"
+
 
 USER ${NB_UID}
 
@@ -39,7 +41,7 @@ USER ${NB_UID}
 ENV JUPYTER_PORT=8888
 EXPOSE $JUPYTER_PORT
 
-# Copy Jupyter notebooks
+# Copy Jupyter notebooks and make directories
 COPY *.ipynb /home/${NB_USER}/
 
 # Set working directory
