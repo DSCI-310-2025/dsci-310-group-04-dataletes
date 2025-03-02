@@ -8,7 +8,7 @@ This project builds a regression model using the k-nearest neighbors (kNN) algor
 ---
 
 ## Report
-You can view the **full analysis report** [here](dsci-310-group-04-dataletes/imdb_analysis.ipynb).
+You can view the **full analysis report** [here](imdb_analysis.ipynb).
 
 ---
 
