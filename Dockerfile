@@ -1,7 +1,8 @@
 # Start with Jupyter base image
 ARG REGISTRY=quay.io
 ARG OWNER=jupyter
-ARG BASE_IMAGE=$REGISTRY/$OWNER/docker-stacks-foundation
+ARG BASE_IMAGE=$REGISTRY/$OWNER/docker-stacks-foundation:2025-03-12
+
 FROM $BASE_IMAGE
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
@@ -10,21 +11,28 @@ LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 USER root
 
 # Install R
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends\
-    r-base \
-    r-base-dev && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN conda install mamba=2.0.5 -c conda-forge && \
+    conda install r-base=4.4 -c conda-forge
 
 # Install R dependencies
-RUN R -e "install.packages(c('IRkernel', 'tidyr', 'readr', 'ggplot2', 'caret', 'lattice'), repos='http://cran.r-project.org')"
+
+# Install remotes package
+RUN R -e "install.packages('remotes', repos='https://cran.r-project.org')"
+
+# Install specific versions of R dependencies
+RUN R -e "remotes::install_version('IRkernel', '1.3.2', repos = 'https://cran.r-project.org')" && \
+    R -e "remotes::install_version('tidyverse', '2.0.0', repos = 'https://cran.r-project.org')" && \
+    R -e "remotes::install_version('lattice', '0.22-6', repos = 'https://cran.r-project.org')" && \
+# I could not figure out how to install caret using remotes, I think it's impossible
+    R -e "install.packages('caret')"
+
 # Install Jupyter dependencies
 WORKDIR /tmp
 RUN mamba install --yes \
-    'jupyterhub-singleuser' \
-    'jupyterlab' \
-    'nbclassic' \
-    'notebook>=7.2.2' && \
+    'jupyterhub-singleuser=5.2.1' \
+    'jupyterlab=4.3.5' \
+    'nbclassic=1.2.0' \
+    'notebook=7.3' && \
     jupyter server --generate-config && \
     mamba clean --all -f -y && \
     jupyter lab clean
