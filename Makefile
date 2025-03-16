@@ -19,18 +19,18 @@ data/visualizations.png: data/cleaned_data.csv
 
 # create and visualize the knn model
 results/: data/cleaned_data.csv
-	Rscript src/model.R data/cleaned_data.csv results/
+	Rscript src/model.R data/cleaned_data.csv results
 
 # render quarto report in HTML and PDF
-reports/qmd_example.html: results reports/qmd_example.qmd
+reports/analysis.html: data/visualizations.png results reports/analysis.qmd
 	quarto render reports/qmd_example.qmd --to html
 
-reports/qmd_example.pdf: results reports/qmd_example.qmd
+reports/analysis.pdf: data/visualizations.png results reports/analysis.qmd
 	quarto render reports/qmd_example.qmd --to pdf
 
 # clean
 clean:
-	rm -rf results/*
+	rm -rf results
 	rm -rf data/*
 	rm -rf reports/qmd_example.html \
 		reports/qmd_example.pdf \
