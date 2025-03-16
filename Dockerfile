@@ -18,13 +18,18 @@ RUN conda install mamba=2.0.5 -c conda-forge && \
 
 # Install remotes package
 RUN R -e "install.packages('remotes', repos='https://cran.r-project.org')"
-
 # Install specific versions of R dependencies
 RUN R -e "remotes::install_version('IRkernel', '1.3.2', repos = 'https://cran.r-project.org')" && \
     R -e "remotes::install_version('tidyverse', '2.0.0', repos = 'https://cran.r-project.org')" && \
     R -e "remotes::install_version('lattice', '0.22-6', repos = 'https://cran.r-project.org')" && \
 # I could not figure out how to install caret using remotes, I think it's impossible
-    R -e "install.packages('caret')"
+    R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/caret/caret_6.0-94.tar.gz', repos = NULL, type = 'source')" && \
+    R -e "install.packages('docopt')" && \
+    R -e "install.packages('ggplot2')" && \
+    R -e "install.packages('ggpubr')" && \
+    R -e "install.packages('gridExtra')" && \
+    R -e "install.packages('grid')" && \
+    R -e "install.packages('knitr')"
 
 # Install Jupyter dependencies
 WORKDIR /tmp
@@ -37,6 +42,7 @@ RUN mamba install --yes \
     mamba clean --all -f -y && \
     jupyter lab clean
 RUN mkdir -p /home/${NB_USER}/data
+RUN mkdir -p /home/${NB_USER}/results
 RUN R -e "IRkernel::installspec(user = FALSE)"
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
