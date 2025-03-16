@@ -31,13 +31,10 @@ To run the analysis and generate results without manual intervention:
 
 ### Interactive Mode (Exploring in Jupyter Lab)
 
-- Navigate to the root of this repository (if not already there)
-- Start the Docker container using `docker-compose`
-- Copy the Jupyter Lab URL from the terminal output (it will look something like http://127.0.0.1:8888/lab?token=your_token).
-- Paste the URL into your web browser.
-- Run the Notebook: Navigate to `notebooks/imdb_analysis.ipynb`
-- Click **Kernel > Restart** & **Run All** to execute the entire analysis.
-- Shut down the container when finished: `docker-compose down`
+- Start docker
+- Go to your command line and type in: docker pull rchen34/dsci310-group-4:latest
+- Run the docker image with: docker run -p 8888:8888 rchen34/dsci310-group-4:latest
+- Open the notebook in your browser with the http://127.0.0.1:8888 link in the console output
 
 ## Dependencies 
 
