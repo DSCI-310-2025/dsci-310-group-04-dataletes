@@ -13,8 +13,7 @@ Before you make a substantial pull request, you should always file an issue and 
 ## Pull request process
 We recommend that you create a Git branch for each pull request (PR).
 New code should follow the [tidyverse style guide](https://style.tidyverse.org/) 
-Code of Conduct
-Please note that this project is released with a [Contributor Code of Conduct.]() By participating in this project you agree to abide by its terms.
+
 
 ## Attribution
-These contributing guidelines were adapted from the dplyr contributing guidelines.
+These contributing guidelines were adapted from the [dplyr](https://github.com/tidyverse/dplyr/blob/main/.github/CONTRIBUTING.md) contributing guidelines.
