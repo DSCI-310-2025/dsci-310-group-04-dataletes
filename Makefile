@@ -1,7 +1,7 @@
 all: data/rolling_stone.csv \
 	data/cleaned_data.csv \
 	data/visualizations.png \
-	results/
+	results
 
 
 
@@ -18,7 +18,7 @@ data/visualizations.png: data/cleaned_data.csv
 	Rscript src/visualize.R data/cleaned_data.csv data/visualizations.png
 
 # create and visualize the knn model
-results/: data/cleaned_data.csv
+results: data/cleaned_data.csv
 	Rscript src/model.R data/cleaned_data.csv results
 
 # render quarto report in HTML and PDF

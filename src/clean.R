@@ -14,7 +14,7 @@ Options:
 "
 
 # Simulate command-line arguments (for Jupyter)
-args <- docopt(doc, args = c("data/rolling_stone.csv", "data/cleaned_data.csv"))  # Replace with actual file paths
+args <- docopt(doc)  # Replace with actual file paths
 
 # Extract file paths from args
 source_file <- args$source
