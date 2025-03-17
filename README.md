@@ -50,6 +50,10 @@ System Dependencies:
 - dplyr
 - caret
 - lattice
+- gridExtra
+- ggpubr
+- docopt
+- knitr
 
 Makefile Dependencies:
 
