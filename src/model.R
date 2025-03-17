@@ -115,7 +115,6 @@ knn_model <- train(
   )
 )
 
-dir.create("results")
 
 # Make predictions on the testing set
 predictions <- predict(knn_model, newdata = test_data_final)
