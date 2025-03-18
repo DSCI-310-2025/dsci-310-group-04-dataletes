@@ -15,8 +15,7 @@ RUN conda install mamba=2.0.5 -c conda-forge
 RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install zlib=1.3.1 -c conda-forge && \
     mamba install cmake=3.31.6 -c conda-forge && \
-    mamba install quarto=1.6.40 -c conda-forge && \
-    apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
+    mamba install quarto=1.6.40 -c conda-forge
 
 # Install R dependencies
 RUN R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/remotes/remotes_2.4.2.tar.gz', repos = NULL, type = 'source')"
@@ -50,8 +49,8 @@ RUN mkdir -p /home/${NB_USER}/data && \
 
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
-# Install tinytex into conda directory
-RUN quarto install tinytex
+RUN apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
+
 # Fix permissions
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
@@ -59,6 +58,14 @@ RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}/src" && \
     fix-permissions "/home/${NB_USER}/reports"
 
+# Install Perl
+RUN apt-get update && apt-get install -y perl=5.38.2-3.2build2.1
+# Install TinyTeX via R
+RUN R -e "remotes::install_version('tinytex', '0.56', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
+    R -e "tinytex::install_tinytex()"
+# Set write permissions to jovyan user
+RUN chmod -R a+w /home/jovyan
+# Ensure TinyTeX is available in the environment for R
 USER ${NB_UID}
 
 # Expose Jupyter port
@@ -71,6 +78,7 @@ COPY src/*.R /home/${NB_USER}/src/
 COPY reports/*.qmd /home/${NB_USER}/reports/
 COPY reports/*.bib /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}
+
 # Set working directory
 WORKDIR "$HOME"
 
