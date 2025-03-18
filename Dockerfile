@@ -44,7 +44,8 @@ RUN mamba install --yes \
 
 # Create necessary directories for jovyan user
 RUN mkdir -p /home/${NB_USER}/data && \
-    mkdir -p /home/${NB_USER}/src
+    mkdir -p /home/${NB_USER}/src && \
+    mkdir -p /home/${NB_USER}/reports
 
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
@@ -53,7 +54,8 @@ RUN R -e "IRkernel::installspec(user = FALSE)"
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
     fix-permissions "/home/${NB_USER}/data" && \
-    fix-permissions "/home/${NB_USER}/src"
+    fix-permissions "/home/${NB_USER}/src" && \
+    fix-permissions "/home/${NB_USER}/reports"
 
 USER ${NB_UID}
 
@@ -64,6 +66,7 @@ EXPOSE $JUPYTER_PORT
 # Copy Jupyter notebooks and R scripts
 COPY src/*.ipynb /home/${NB_USER}/src
 COPY src/*.R /home/${NB_USER}/src/
+COPY reports/*.qmd /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}
 # Set working directory
 WORKDIR "$HOME"
