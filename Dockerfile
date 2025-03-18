@@ -17,7 +17,6 @@ RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install cmake=3.31.6 -c conda-forge && \
     mamba install quarto=1.6.40 -c conda-forge && \
     apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
-RUN quarto install tinytex
 
 # Install R dependencies
 RUN R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/remotes/remotes_2.4.2.tar.gz', repos = NULL, type = 'source')"
@@ -51,7 +50,8 @@ RUN mkdir -p /home/${NB_USER}/data && \
 
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
-
+# Install tinytex into conda directory
+RUN quarto install tinytex
 # Fix permissions
 RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
