@@ -23,10 +23,10 @@ results: data/cleaned_data.csv
 	Rscript src/model.R data/cleaned_data.csv results
 
 # render quarto report in HTML and PDF
-reports/analysis.html: data/visualizations.png results reports/analysis.qmd
+reports/analysis.html: data/visualizations.png results
 	quarto render reports/analysis.qmd --to html
 
-reports/analysis.pdf: data/visualizations.png results reports/analysis.qmd
+reports/analysis.pdf: data/visualizations.png results
 	quarto render reports/analysis.qmd --to pdf
 
 # clean
