@@ -16,7 +16,9 @@ RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install zlib=1.3.1 -c conda-forge && \
     mamba install cmake=3.31.6 -c conda-forge && \
     mamba install quarto=1.6.40 -c conda-forge
-    
+RUN apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2 && \
+    quarto install tinytex
+
 # Install R dependencies
 RUN R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/remotes/remotes_2.4.2.tar.gz', repos = NULL, type = 'source')"
 RUN R -e "remotes::install_version('IRkernel', '1.3.2', repos = 'https://cran.r-project.org')" && \
@@ -67,6 +69,7 @@ EXPOSE $JUPYTER_PORT
 COPY src/*.ipynb /home/${NB_USER}/src
 COPY src/*.R /home/${NB_USER}/src/
 COPY reports/*.qmd /home/${NB_USER}/reports/
+COPY reports/*.bib /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}
 # Set working directory
 WORKDIR "$HOME"
