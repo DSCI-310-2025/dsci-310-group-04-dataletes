@@ -1,8 +1,9 @@
 all: data/rolling_stone.csv \
 	data/cleaned_data.csv \
 	data/visualizations.png \
-	results
-
+	results \
+	reports/analysis.html \
+	reports/analysis.pdf
 
 
 # download the data from the web
@@ -23,15 +24,15 @@ results: data/cleaned_data.csv
 
 # render quarto report in HTML and PDF
 reports/analysis.html: data/visualizations.png results reports/analysis.qmd
-	quarto render reports/qmd_example.qmd --to html
+	quarto render reports/analysis.qmd --to html
 
 reports/analysis.pdf: data/visualizations.png results reports/analysis.qmd
-	quarto render reports/qmd_example.qmd --to pdf
+	quarto render reports/analysis.qmd --to pdf
 
 # clean
 clean:
 	rm -rf results
 	rm -rf data/*
-	rm -rf reports/qmd_example.html \
-		reports/qmd_example.pdf \
-		reports/qmd_example_files
+	rm -rf reports/analysis.html \
+		reports/analysis.pdf \
+		reports/analaysis_files

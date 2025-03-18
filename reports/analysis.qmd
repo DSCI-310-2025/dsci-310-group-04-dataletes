@@ -161,8 +161,12 @@ success, and revealed potential group-level differences that could be
 important for modeling. Overall, the EDA gave a clearer picture of key
 patterns and relationships in the data.
 
-![Scatterplots and boxplots for EDA](../data/visualizations.png){#fig-viz}
+::: {#fig-viz}
 
+![](../data/visualizations.png){#fig-viz}
+
+Scatterplots and boxplots for EDA
+:::
 ## Predictor Selection and Model Execution
 
 For predictor selection, we focused on identifying variables that had
@@ -187,8 +191,13 @@ where both RMSE and R-squared were calculated to measure prediction
 accuracy and explained variance. This process ensured a robust approach
 to selecting meaningful predictors and building a well-tuned predictive
 model.
-![knn-tuning results](results/knn_tuning_results.png){#fig-results}
 
+::: {#fig-results}
+
+![](../results/knn_tuning_results.png){#fig-results}
+
+knn-tuning results
+:::
 
 # Discussion
 

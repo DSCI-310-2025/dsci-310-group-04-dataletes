@@ -14,7 +14,8 @@ USER root
 RUN conda install mamba=2.0.5 -c conda-forge
 RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install zlib=1.3.1 -c conda-forge && \
-    mamba install cmake=3.31.6 -c conda-forge
+    mamba install cmake=3.31.6 -c conda-forge && \
+    mamba install quarto=1.6.40 -c conda-forge
     
 # Install R dependencies
 RUN R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/remotes/remotes_2.4.2.tar.gz', repos = NULL, type = 'source')"
