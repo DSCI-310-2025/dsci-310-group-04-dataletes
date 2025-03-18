@@ -15,8 +15,8 @@ RUN conda install mamba=2.0.5 -c conda-forge
 RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install zlib=1.3.1 -c conda-forge && \
     mamba install cmake=3.31.6 -c conda-forge && \
-    mamba install quarto=1.6.40 -c conda-forge
-RUN apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2 && \
+    mamba install quarto=1.6.40 -c conda-forge && \
+    apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2 && \
     quarto install tinytex
 
 # Install R dependencies
