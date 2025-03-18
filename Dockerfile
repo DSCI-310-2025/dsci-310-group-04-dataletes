@@ -16,8 +16,8 @@ RUN mamba install r-base=4.4 -c conda-forge && \
     mamba install zlib=1.3.1 -c conda-forge && \
     mamba install cmake=3.31.6 -c conda-forge && \
     mamba install quarto=1.6.40 -c conda-forge && \
-    apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2 && \
-    quarto install tinytex
+    apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
+RUN quarto install tinytex
 
 # Install R dependencies
 RUN R -e "install.packages('https://cran.r-project.org/src/contrib/Archive/remotes/remotes_2.4.2.tar.gz', repos = NULL, type = 'source')"
