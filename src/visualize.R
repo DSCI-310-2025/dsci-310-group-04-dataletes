@@ -14,8 +14,7 @@ Options:
   <destination>    File path where the visualization will be placed.
 "
 
-# Simulate command-line arguments (for Jupyter)
-args <- docopt(doc, args = c("data/cleaned_data.csv", "data/visualizations.png"))  # Replace with actual file paths
+args <- docopt(doc)
 
 # Load the data
 cleaned_data <- read_csv(args$source)

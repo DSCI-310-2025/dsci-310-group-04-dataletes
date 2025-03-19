@@ -19,7 +19,7 @@ Options:
 "
 
 # Simulate command-line arguments (for Jupyter)
-args <- docopt(doc, args = c("data/cleaned_data.csv", "results/"))  # Replace with actual file paths
+args <- docopt(doc)  # Replace with actual file paths
 
 # Training and testing split
 set.seed(123)
@@ -72,14 +72,15 @@ train_data_final <- cbind(train_data_features_scaled, target = train_data_cleane
 # Check the final datasets
 head(train_data_final)
 head(test_data_final)
-
+#make dest if it does not exist
+dir.create(args$destination)
 # Save head of train_data_final
-png(paste0(args$destination,"train_data_head.png"), width = 1500, height = 400)
+png(paste0(args$destination,"/train_data_head.png"), width = 1500, height = 400)
 grid.table(head(train_data_final, 10))  # Adjust number of rows if needed
 dev.off()
 
 # Save head of test_data_final
-png(paste0(args$destination,"test_data_head.png"), width = 1500, height = 400)
+png(paste0(args$destination,"/test_data_head.png"), width = 1500, height = 400)
 grid.table(head(test_data_final, 10))  # Adjust number of rows if needed
 dev.off()
 
@@ -114,7 +115,6 @@ knn_model <- train(
   )
 )
 
-dir.create("results")
 
 # Make predictions on the testing set
 predictions <- predict(knn_model, newdata = test_data_final)
@@ -135,7 +135,7 @@ best_knn <- knn_model$bestTune$k
 caption_text <- paste(paste(paste("kNN Model Tuning Results with Best k:", best_knn),"\n"),paste(paste("RMSE on Testing Set:", rmse),paste("R-squared on Testing Set:", r2)))
 
 # Save table as PNG
-png("results/knn_tuning_results.png", width = 800, height = 600)
+png(paste0(args$destination,"/knn_tuning_results.png"), width = 1000, height = 600)
 
 # Create table grob
 table_grob <- tableGrob(tuning_results)
