@@ -73,6 +73,9 @@ train_data_final <- cbind(train_data_features_scaled, target = train_data_cleane
 head(train_data_final)
 head(test_data_final)
 #make dest if it does not exist
+if (dir.exists(args$destination)) {
+  unlink(args$destination, recursive = TRUE)
+}
 dir.create(args$destination)
 # Save head of train_data_final
 png(paste0(args$destination,"/train_data_head.png"), width = 1500, height = 400)
