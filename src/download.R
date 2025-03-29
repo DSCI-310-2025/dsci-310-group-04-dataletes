@@ -1,5 +1,6 @@
 library(docopt)
 library(readr)
+source("R/data_utils.R")
 
 # Define usage string
 doc <- "
@@ -10,13 +11,8 @@ Options:
   <url>         URL location of the CSV file.
   <destination> File path where the CSV file will be placed.
 "
-getwd()
+
 args <- docopt(doc)
 
-url <- args$url
-destination <- args$destination
-
-download.file(url, destination)
-
-rollingstone <- read_csv(destination)
-rollingstone
+# Download the data using our new function
+rollingstone <- download_data(args$url, args$destination)

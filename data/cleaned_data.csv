@@ -1,0 +1,654 @@
+"","differential","release_year","genre","type","weeks_on_billboard","peak_billboard_position","spotify_popularity","artist_member_count","artist_gender","artist_birth_year_sum","debut_album_release_year","ave_age_at_top_500","years_between"
+"1",-182,1955,"Big Band/Jazz","Studio",14,2,48,1,"Male",1915,1946,40,9
+"2",-241,1955,"Rock n' Roll/Rhythm & Blues","Studio",64.270979020979,201,50,1,"Male",1928,1955,27,0
+"3",-277,1956,"Rock n' Roll/Rhythm & Blues","Studio",100,1,58,1,"Male",1935,1956,21,0
+"4",-195,1956,"Big Band/Jazz","Studio",64.270979020979,2,62,1,"Male",1915,1946,41,10
+"5",-177,1957,"Punk/Post-Punk/New Wave/Power Pop","Studio",5,13,64,1,"Male",1932,1957,25,0
+"6",469,2016,"Punk/Post-Punk/New Wave/Power Pop","Studio",87,1,73,1,"Female",1981,2003,35,13
+"7",468,2006,"Soul/Gospel/R&B","Studio",173,2,67,1,"Female",1983,2003,23,3
+"8",-80,1957,"Rock n' Roll/Rhythm & Blues","Studio",64.270979020979,201,47,4,"Male",7752,1957,19,0
+"9",433,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",27,30,75,1,"Female",1958,1978,27,7
+"10",-19,1959,"Big Band/Jazz","Studio",64.270979020979,201,52,1,"Male",1926,1951,33,8
+"11",-130,1959,"Big Band/Jazz","Studio",64.270979020979,201,36,1,"Male",1926,1957,33,2
+"12",420,2013,"Punk/Post-Punk/New Wave/Power Pop","Studio",186,1,75,1,"Female",1981,2003,32,10
+"13",-171,1959,"Big Band/Jazz","Studio",64.270979020979,201,34,1,"Male",1930,1958,29,1
+"14",412,1997,"Soul/Gospel/R&B","Studio",58,2,67,1,"Female",1971,1997,26,0
+"15",408,1997,"Hip-Hop/Rap","Studio",37,3,53,1,"Female",1971,1997,26,0
+"16",-324,1959,"Blues/Blues Rock","Compilation",64.270979020979,201,53,1,"Male",1910,1959,49,0
+"17",402,2012,"Country/Folk/Country Rock/Folk Rock","Studio",185,1,62,1,"Female",1989,2006,23,6
+"18",393,1999,"Indie/Alternative Rock","Studio",20,13,64,1,"Female",1977,1996,22,3
+"19",-238,1959,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,17,52,1,"Male",1930,1949,29,10
+"20",390,1986,"Soul/Gospel/R&B","Studio",106,1,54,1,"Female",1966,1982,20,4
+"21",-75,1960,"Soul/Gospel/R&B","Studio",64.270979020979,201,75,1,"Female",1938,1960,22,0
+"22",364,2011,"Soul/Gospel/R&B","Studio",588,1,81,1,"Female",1988,2008,23,3
+"23",-153,1960,"Blues/Blues Rock","Live",64.270979020979,201,26,1,"Male",1913,1947,47,13
+"24",-145,1960,"Big Band/Jazz","Studio",64.270979020979,201,35,1,"Male",1926,1951,34,9
+"25",347,1972,"Soul/Gospel/R&B","Live",23,7,38,1,"Female",1942,1961,30,11
+"26",343,2000,"Soul/Gospel/R&B","Studio",25,11,66,1,"Female",1971,1997,29,3
+"27",-347,1961,"Blues/Blues Rock","Compilation",64.270979020979,201,47,1,"Male",1911,1937,50,24
+"28",312,1997,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,46,3,"Female",5911,1995,26.66666667,2
+"29",305,2010,"Electronic","Studio",1,142,52,1,"Female",1979,1995,31,15
+"30",301,1984,"Soul/Gospel/R&B","Studio",81,5,64,1,"Female",1959,1984,25,0
+"31",299,1997,"Punk/Post-Punk/New Wave/Power Pop","Studio",9,28,46,1,"Female",1965,1977,32,20
+"32",289,1966,"Soul/Gospel/R&B","Studio",110,9,49,1,"Female",1933,1959,33,7
+"33",288,2012,"Indie/Alternative Rock","Studio",16,3,52,1,"Female",1977,1996,35,16
+"34",-23,1962,"Soul/Gospel/R&B","Studio",14,1,55,1,"Male",1930,1949,32,13
+"35",277,1999,"Country/Folk/Country Rock/Folk Rock","Studio",131,1,65,3,"Female",5915,1990,27.33333333,9
+"36",-41,1963,"Funk/Disco","Live",6,91,28,1,"Male",1933,1958,30,5
+"37",271,2016,"Punk/Post-Punk/New Wave/Power Pop","Studio",392,1,51,1,"Female",1988,2005,28,11
+"38",268,1992,"Punk/Post-Punk/New Wave/Power Pop","Studio",54,38,39,1,"Female",1963,1992,29,0
+"39",254,1992,"Soul/Gospel/R&B","Studio",103,3,70,1,"Female",1959,1984,33,8
+"40",-158,1963,"Country/Folk/Country Rock/Folk Rock","Studio",14,22,66,1,"Male",1941,1962,22,1
+"41",-462,1963,"Punk/Post-Punk/New Wave/Power Pop","Studio",1,74,72,4,"Male",7765,1963,21.75,0
+"42",-359,1963,"Soul/Gospel/R&B","Compilation",64.270979020979,201,61,1,"Male",1939,1959,24,4
+"43",-81,1963,"Punk/Post-Punk/New Wave/Power Pop","Studio",74,1,68,4,"Male",7765,1963,21.75,0
+"44",231,2018,"Country/Folk/Country Rock/Folk Rock","Studio",94,4,69,1,"Female",1988,2013,30,5
+"45",230,1992,"Soul/Gospel/R&B","Studio",58,6,58,1,"Female",1971,1992,21,0
+"46",224,2003,"Soul/Gospel/R&B","Studio",87,1,74,1,"Female",1981,2001,22,2
+"47",218,1975,"Funk/Disco","Studio",49,1,60,1,"Female",1948,1974,27,1
+"48",-67,1964,"Soul/Gospel/R&B","Studio",64.270979020979,201,62,3,"Female",5830,1964,20.66666667,0
+"49",210,1999,"Punk/Post-Punk/New Wave/Power Pop","Studio",99,5,73,4,"Female",7924,1998,18,1
+"50",201,1997,"Country/Folk/Country Rock/Folk Rock","Studio",151,2,70,1,"Female",1965,1993,32,4
+"51",189,2016,"Soul/Gospel/R&B","Studio",23,1,60,1,"Female",1986,2002,30,14
+"52",188,2000,"Indie/Alternative Rock","Studio",9,42,58,1,"Female",1969,1992,31,8
+"53",187,1996,"Soul/Gospel/R&B","Studio",67,18,64,1,"Female",1979,1994,17,2
+"54",186,2018,"Latin","Studio",64.270979020979,201,69,1,"Female",1992,2017,26,1
+"55",184,1958,"Big Band/Jazz","Studio",64.270979020979,201,47,1,"Female",1915,1934,43,24
+"56",180,2019,"Punk/Post-Punk/New Wave/Power Pop","Studio",25,3,84,1,"Female",1985,2010,34,9
+"57",125,1964,"Rock n' Roll/Rhythm & Blues","Studio",56,1,73,4,"Male",7765,1963,22.75,1
+"58",-221,1964,"Blues/Blues Rock","Studio",64.270979020979,201,45,1,"Male",1913,1947,51,17
+"59",153,2001,"Country/Folk/Country Rock/Folk Rock","Studio",3,157,42,1,"Female",1967,1996,34,5
+"60",113,1972,"Soul/Gospel/R&B","Studio",31,11,53,1,"Female",1942,1961,30,11
+"61",112,2005,"Soul/Gospel/R&B","Studio",74,1,63,1,"Female",1969,1990,36,15
+"62",110,1999,"Punk/Post-Punk/New Wave/Power Pop","Studio",6,144,24,1,"Female",1979,1999,20,0
+"63",108,2014,"Punk/Post-Punk/New Wave/Power Pop","Studio",464,1,79,1,"Female",1989,2006,25,8
+"64",107,1980,"Funk/Disco","Studio",67,2,69,1,"Female",1944,1970,36,10
+"65",104,2019,"Indie/Alternative Rock","Studio",240,1,86,1,"Female",2001,2019,18,0
+"66",103,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,39,4,"Female",7814,1979,25.5,0
+"67",-47,1964,"Big Band/Jazz","Studio",2,105,47,2,"Male",3858,1964,35,0
+"68",80,2005,"Electronic","Studio",2,190,44,1,"Female",1975,2005,30,0
+"69",75,1988,"Country/Folk/Country Rock/Folk Rock","Studio",64.270979020979,201,37,1,"Female",1953,1979,35,9
+"70",61,1971,"Country/Folk/Country Rock/Folk Rock","Studio",17,81,51,1,"Female",1932,1963,39,8
+"71",60,2007,"Punk/Post-Punk/New Wave/Power Pop","Studio",34,2,73,1,"Female",1981,1999,26,8
+"72",57,2005,"Indie/Alternative Rock","Studio",21,7,51,1,"Female",1977,1996,28,9
+"73",55,1971,"Big Band/Jazz","Studio",64.270979020979,201,43,1,"Female",1937,1968,34,3
+"74",50,1969,"Soul/Gospel/R&B","Studio",54,1,54,1,"Female",1937,1969,32,0
+"75",-14,1965,"Country/Folk/Country Rock/Folk Rock","Studio",47,3,64,1,"Male",1941,1962,24,3
+"76",-30,1965,"Punk/Post-Punk/New Wave/Power Pop","Studio",70,1,76,4,"Male",7765,1963,23.75,2
+"77",41,2017,"Punk/Post-Punk/New Wave/Power Pop","Studio",43,1,78,1,"Female",1996,2013,21,4
+"78",38,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,181,30,1,"Female",1947,1967,21,1
+"79",29,2017,"Soul/Gospel/R&B","Studio",334,3,49,1,"Female",1989,2017,28,0
+"80",26,1996,"Punk/Post-Punk/New Wave/Power Pop","Studio",63,6,56,1,"Female",1962,1991,34,5
+"81",22,1994,"Latin","Studio",1,183,74,1,"Female",1971,1989,23,5
+"82",21,2016,"Country/Folk/Country Rock/Folk Rock","Studio",43,3,53,1,"Female",1983,2005,33,11
+"83",17,2011,"Electronic","Studio",53,1,65,1,"Female",1986,2008,25,3
+"84",-19,1965,"Big Band/Jazz","Studio",12,64,47,1,"Male",1926,1957,39,8
+"85",-104,1965,"Soul/Gospel/R&B","Studio",34,75,59,1,"Male",1941,1964,24,1
+"86",-150,1965,"Country/Folk/Country Rock/Folk Rock","Studio",43,6,58,1,"Male",1941,1962,24,3
+"87",5,1998,"Latin","Studio",22,131,76,1,"Female",1977,1991,21,7
+"88",66,1965,"Punk/Post-Punk/New Wave/Power Pop","Studio",46,1,73,4,"Male",7765,1963,23.75,2
+"89",-55,1965,"Punk/Post-Punk/New Wave/Power Pop","Studio",38,6,54,5,"Male",9717,1965,21.6,0
+"90",-158,1965,"Blues/Blues Rock","Live",8,78,38,1,"Male",1925,1956,40,9
+"91",-196,1965,"Punk/Post-Punk/New Wave/Power Pop","Studio",50,4,38,5,"Male",9715,1962,22,3
+"92",-387,1965,"Blues/Blues Rock","Studio",65,1,69,5,"Male",9705,1964,24,1
+"93",-320,1965,"Blues/Blues Rock","Studio",53,5,43,5,"Male",9705,1964,24,1
+"94",-265,1965,"Blues/Blues Rock","Studio",64.270979020979,201,56,4,"Male",7779,1965,20.25,0
+"95",-148,1965,"Blues/Blues Rock","Studio",33,53,48,5,"Male",9718,1964,21.4,1
+"96",-25,1965,"Blues/Blues Rock","Studio",6,136,36,6,"Male",11642,1965,24.66666667,0
+"97",0,1966,"Punk/Post-Punk/New Wave/Power Pop","Studio",40,10,62,6,"Male",11657,1962,23.16666667,4
+"98",-8,1966,"Punk/Post-Punk/New Wave/Power Pop","Studio",94,1,73,4,"Male",7765,1963,24.75,3
+"99",484,2010,"Hip-Hop/Rap","Studio",243,1,85,1,"Male",1977,2004,33,6
+"100",-29,1966,"Country/Folk/Country Rock/Folk Rock","Studio",34,9,54,1,"Male",1941,1962,25,4
+"101",482,2015,"Hip-Hop/Rap","Studio",125,1,78,1,"Male",1987,2011,28,4
+"102",-222,1966,"Blues/Blues Rock","Studio",50,2,74,5,"Male",9705,1964,25,2
+"103",-197,1966,"Soul/Gospel/R&B","Studio",15,73,33,1,"Male",1941,1964,25,2
+"104",-400,1966,"Blues/Blues Rock","Studio",92,39,56,3,"Male",5827,1966,23.66666667,0
+"105",-306,1966,"Blues/Blues Rock","Studio",64.270979020979,201,47,4,"Male",7763,1966,25.25,0
+"106",-300,1966,"Country/Folk/Country Rock/Folk Rock","Studio",145,4,63,2,"Male",3882,1964,25,2
+"107",-258,1966,"Punk/Post-Punk/New Wave/Power Pop","Studio",23,130,41,6,"Male",11640,1966,26,0
+"108",-152,1966,"Blues/Blues Rock","Studio",16,52,40,5,"Male",9718,1964,22.4,2
+"109",-118,1966,"Blues/Blues Rock","Studio",21,67,39,4,"Male",7779,1965,21.25,1
+"110",-141,1966,"Soul/Gospel/R&B","Studio",40,8,59,6,"Male/Female",11640,1961,26,5
+"111",-374,1966,"Punk/Post-Punk/New Wave/Power Pop","Studio",105,1,72,4,"Male/Female",7760,1966,26,0
+"112",70,1967,"Soul/Gospel/R&B","Studio",79,2,67,1,"Female",1942,1961,25,6
+"113",-23,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",233,1,71,4,"Male",7765,1963,25.75,4
+"114",-15,1967,"Blues/Blues Rock","Studio",106,5,69,3,"Male",5833,1967,22.66666667,0
+"115",-44,1967,"Blues/Blues Rock","Studio",104,2,70,4,"Male",7772,1967,24,0
+"116",-10,1967,"Blues/Blues Rock","Studio",3,55,66,3,"Male",5833,1967,22.66666667,0
+"117",-58,1967,"Blues/Blues Rock","Studio",83,4,55,3,"Male",5827,1966,24.66666667,1
+"118",-140,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",10,154,47,5,"Male",9725,1966,22,1
+"119",94,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",11,131,47,4,"Male",7776,1967,23,0
+"120",-203,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",23,48,29,4,"Male",7779,1965,22.25,2
+"121",-36,1967,"Country/Folk/Country Rock/Folk Rock","Studio",52,2,50,1,"Male",1941,1962,26,5
+"122",-190,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",2,153,13,4,"Male",7778,1964,22.5,3
+"123",-380,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",27,24,32,5,"Male",9717,1967,23.6,0
+"124",-377,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",24,24,45,4,"Male",7773,1965,23.75,2
+"125",452,1998,"Hip-Hop/Rap","Studio",43,2,65,2,"Male",3950,1994,23,4
+"126",-313,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",14,44,53,5,"Male",9720,1966,23,1
+"127",-303,1967,"Blues/Blues Rock","Greatest Hits",64.270979020979,201,10,1,"Male",1930,1947,37,20
+"128",-146,1967,"Blues/Blues Rock","Studio",47,2,56,5,"Male",9705,1964,26,3
+"129",-94,1967,"Blues/Blues Rock","Studio",61,3,69,4,"Male",7772,1967,24,0
+"130",-27,1967,"Soul/Gospel/R&B","Live",42,32,17,1,"Male",1941,1964,26,3
+"131",-17,1967,"Country/Folk/Country Rock/Folk Rock","Studio",4,167,19,1,"Male",1937,1965,30,2
+"132",-2,1967,"Blues/Blues Rock","Compilation",64.270979020979,201,43,1,"Male",1923,1962,44,5
+"133",-323,1967,"Punk/Post-Punk/New Wave/Power Pop","Greatest Hits",29,6,29,5,"Male",9717,1965,23.6,2
+"134",-10,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",13,171,65,5,"Male/Female",9708,1967,25.4,0
+"135",-325,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",56,3,70,6,"Male/Female",11644,1966,26.33333333,1
+"136",9,1968,"Soul/Gospel/R&B","Studio",52,2,63,1,"Female",1942,1961,26,7
+"137",-19,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",55,1,76,4,"Male",7765,1963,26.75,5
+"138",1,1968,"Blues/Blues Rock","Studio",1,40,69,3,"Male",5833,1967,23.66666667,1
+"139",-41,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,52,1,"Male",1945,1967,23,1
+"140",-66,1968,"Country/Folk/Country Rock/Folk Rock","Studio",40,30,62,5,"Male",9706,1968,26.8,0
+"141",-76,1968,"Country/Folk/Country Rock/Folk Rock","Live",81,13,60,1,"Male",1932,1957,36,11
+"142",-128,1968,"Blues/Blues Rock","Studio",26,5,67,5,"Male",9705,1964,27,4
+"143",-163,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",95,13,66,5,"Male",9724,1965,23.2,3
+"144",-157,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",10,77,47,4,"Male",7775,1965,24.25,3
+"145",-213,1968,"Blues/Blues Rock","Studio",64.270979020979,201,38,1,"Male",1941,1968,27,0
+"146",427,2004,"Hip-Hop/Rap","Studio",74,2,79,1,"Male",1977,2004,27,0
+"147",-129,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,47,4,"Male",7778,1964,23.5,4
+"148",-340,1968,"Soul/Gospel/R&B","Compilation",42,4,51,1,"Male",1941,1964,27,4
+"149",-330,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,47,45,5,"Male",9717,1965,24.6,3
+"150",422,2016,"Soul/Gospel/R&B","Studio",354,1,86,1,"Male",1987,2012,29,4
+"151",-298,1968,"Blues/Blues Rock","Studio",50,1,62,3,"Male",5827,1966,25.66666667,2
+"152",-268,1968,"Country/Folk/Country Rock/Folk Rock","Studio",66,1,68,2,"Male",3882,1964,27,4
+"153",-237,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",55,47,39,8,"Male",15557,1968,23.375,0
+"154",-214,1968,"Blues/Blues Rock","Studio",17,87,23,6,"Male",11663,1967,24.16666667,1
+"155",-205,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,30,41,8,"Male",15509,1966,29.375,2
+"156",-36,1968,"Soul/Gospel/R&B","Greatest Hits",8,122,28,2,"Male",3870,1956,33,12
+"157",20,1968,"Punk/Post-Punk/New Wave/Power Pop","Studio",2,199,28,4,"Male/Female",7770,1967,25.5,1
+"158",-34,1968,"Blues/Blues Rock","Studio",66,1,61,5,"Male/Female",9707,1967,26.6,1
+"159",6,1969,"Soul/Gospel/R&B","Studio",14,99,24,1,"Female",1939,1964,30,5
+"160",9,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",83,1,79,4,"Male",7765,1963,27.75,6
+"161",406,2011,"Hip-Hop/Rap","Studio",557,1,84,1,"Male",1986,2010,25,1
+"162",-9,1969,"Blues/Blues Rock","Studio",39,3,46,6,"Male",11654,1964,26.66666667,5
+"163",-12,1969,"Country/Folk/Country Rock/Folk Rock","Studio",49,9,58,5,"Male",9706,1968,27.8,1
+"164",-72,1969,"Hard Rock/Metal","Studio",73,10,53,4,"Male",7786,1969,22.5,0
+"165",-48,1969,"Hard Rock/Metal","Studio",75,1,55,4,"Male",7786,1969,22.5,0
+"166",-94,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",126,4,39,4,"Male",7779,1965,24.25,4
+"167",199,1969,"Blues/Blues Rock","Studio",3,60,34,4,"Male",7776,1968,25,1
+"168",-132,1969,"Rock n' Roll/Rhythm & Blues","Studio",34,13,67,1,"Male",1935,1956,34,13
+"169",-55,1969,"Punk/Post-Punk/New Wave/Power Pop","Live",23,30,36,5,"Male",9731,1969,22.8,0
+"170",-270,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,164,41,4,"Male",7771,1969,26.25,0
+"171",-303,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",11,106,50,4,"Male",7791,1969,21.25,0
+"172",386,2012,"Hip-Hop/Rap","Studio",575,2,76,1,"Male",1987,2011,25,1
+"173",-406,1969,"Blues/Blues Rock","Studio",1,88,74,4,"Male",7776,1968,25,1
+"174",384,2005,"Hip-Hop/Rap","Studio",37,1,80,1,"Male",1977,2004,28,1
+"175",-351,1969,"Blues/Blues Rock","Studio",16,4,43,6,"Male",11683,1969,21.83333333,0
+"176",-312,1969,"Blues/Blues Rock","Live",30,27,37,4,"Male",7773,1968,25.75,1
+"177",-257,1969,"Blues/Blues Rock","Live",15,64,32,7,"Male",13607,1967,25.14285714,2
+"178",-218,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,59,1,"Male",1948,1969,21,0
+"179",-1,1969,"Soul/Gospel/R&B","Studio",102,13,57,10,"Male/Female",19466,1967,22.4,2
+"180",171,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,41,4,"Male/Female",7775,1967,25.25,2
+"181",-131,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",44,13,35,6,"Male/Female",11644,1966,28.33333333,3
+"182",-63,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",33,6,59,1,"Male",1940,1968,30,2
+"183",7,1970,"Big Band/Jazz","Studio",29,35,39,1,"Male",1926,1951,44,19
+"184",97,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,42,5,"Male",9740,1969,22,1
+"185",-55,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",24,29,65,1,"Male",1945,1967,25,3
+"186",-9,1970,"Hard Rock/Metal","Studio",65,12,68,4,"Male",7793,1970,21.75,0
+"187",-121,1970,"Country/Folk/Country Rock/Folk Rock","Studio",85,1,71,2,"Male",3882,1964,29,6
+"188",-79,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",102,3,65,1,"Male",1948,1968,22,2
+"189",1,1970,"Country/Folk/Country Rock/Folk Rock","Studio",79,8,73,1,"Male",1948,1967,22,3
+"190",43,1970,"Country/Folk/Country Rock/Folk Rock","Studio",19,30,53,7,"Male",13604,1967,26.57142857,3
+"191",-72,1970,"Country/Folk/Country Rock/Folk Rock","Studio",97,1,64,4,"Male",7773,1969,26.75,1
+"192",-111,1970,"Blues/Blues Rock","Studio",2,131,65,6,"Male",11672,1970,24.66666667,0
+"193",353,2012,"Soul/Gospel/R&B","Studio",150,2,84,1,"Male",1987,2012,25,0
+"194",-157,1970,"Blues/Blues Rock","Live",44,4,35,4,"Male",7779,1965,25.25,5
+"195",-129,1970,"Blues/Blues Rock","Studio",88,1,62,6,"Male",11683,1969,22.83333333,1
+"196",-256,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",59,1,76,4,"Male",7765,1963,28.75,7
+"197",346,2003,"Hip-Hop/Rap","Studio",58,1,65,1,"Male",1969,1996,34,7
+"198",-114,1970,"Hard Rock/Metal","Studio",65,23,50,4,"Male",7793,1970,21.75,0
+"199",69,1970,"Singer-Songwriter/Heartland Rock","Studio",41,1,63,1,"Male",1943,1968,27,2
+"200",-147,1970,"Blues/Blues Rock","Studio",26,27,55,7,"Male",13607,1967,26.14285714,3
+"201",-148,1970,"Blues/Blues Rock","Studio",1,69,74,4,"Male",7776,1968,26,2
+"202",-197,1970,"Funk/Disco","Studio",2,198,36,4,"Male",7778,1969,25.5,1
+"203",-147,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",16,4,25,1,"Male",1943,1968,27,2
+"204",-121,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",4,151,47,6,"Male",11657,1962,27.16666667,8
+"205",-50,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,137,37,5,"Male",9731,1969,23.8,1
+"206",-38,1970,"Singer-Songwriter/Heartland Rock","Studio",37,5,46,1,"Male",1947,1969,23,1
+"207",-33,1970,"Singer-Songwriter/Heartland Rock","Studio",51,4,52,1,"Male",1947,1969,23,1
+"208",-77,1970,"Punk/Post-Punk/New Wave/Power Pop","Compilation",64.270979020979,201,49,1,"Male",1911,1937,59,33
+"209",-133,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,50,4,"Male/Female",7775,1967,26.25,3
+"210",-283,1970,"Funk/Disco","Greatest Hits",79,2,51,10,"Male/Female",19466,1967,23.4,3
+"211",-326,1970,"Punk/Post-Punk/New Wave/Power Pop","Studio",87,2,54,2,"Male/Female",3896,1969,22,1
+"212",11,1971,"Singer-Songwriter/Heartland Rock","Studio",302,1,68,1,"Female",1942,1970,29,1
+"213",326,2017,"Hip-Hop/Rap","Studio",342,1,85,1,"Male",1987,2011,30,6
+"214",42,1971,"Country/Folk/Country Rock/Folk Rock","Studio",64.270979020979,201,50,1,"Female",1946,1967,25,4
+"215",-137,1971,"Blues/Blues ROck","Studio",42,1,27,1,"Female",1943,1969,28,2
+"216",5,1971,"Soul/Gospel/R&B","Studio",48,6,68,1,"Male",1939,1961,32,10
+"217",8,1971,"Hard Rock/Metal","Studio",218,2,58,4,"Male",7786,1969,24.5,2
+"218",-49,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",43,4,29,4,"Male",7779,1965,26.25,6
+"219",19,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",16,93,66,1,"Male",1947,1967,24,4
+"220",-41,1971,"Blues/Blues Rock","Studio",62,1,70,5,"Male",9712,1964,28.6,7
+"221",318,1995,"Soul/Gospel/R&B","Studio",65,22,59,1,"Male",1974,1995,21,0
+"222",-56,1971,"Blues/Blues Rock","Live",47,13,46,6,"Male",11675,1969,25.16666667,2
+"223",350,1971,"Funk/Disco","Studio",16,108,57,10,"Male",19447,1970,26.3,1
+"224",314,1990,"Hip-Hop/Rap","Studio",26,19,53,1,"Male",1969,1990,21,0
+"225",309,1971,"Country/Folk/Country Rock/Folk Rock","Studio",3,154,54,1,"Male",1946,1971,25,0
+"226",-5,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",52,1,62,1,"Male",1945,1969,26,2
+"227",-28,1971,"Blues/Blues Rock","Studio",34,32,34,4,"Male",7790,1968,23.5,3
+"228",-147,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",45,1,69,1,"Male",1940,1968,31,3
+"229",64,1971,"Hard Rock/Metal","Studio",43,8,58,4,"Male",7793,1970,22.75,1
+"230",306,1970,"Country/Folk/Country Rock/Folk Rock","Studio",11,145,53,1,"Male",1934,1967,36,3
+"231",-256,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,60,1,"Male",1948,1969,23,2
+"232",-164,1971,"Blues/Blues Rock","Studio",76,7,62,5,"Male",9733,1968,24.4,3
+"233",300,1993,"Hip-Hop/Rap","Studio",29,8,61,4,"Male",7890,1990,20.5,3
+"234",-139,1971,"Blues/Blues Rock","Studio",34,9,68,4,"Male",7772,1967,28,4
+"235",297,2007,"Hip-Hop/Rap","Studio",52,1,87,1,"Male",1977,2004,30,3
+"236",-41,1971,"Hard Rock/Metal","Studio",38,35,51,5,"Male",9736,1969,23.8,2
+"237",17,1971,"Funk/Disco","Studio",31,1,47,10,"Male/Female",19466,1967,24.4,4
+"238",-7,1972,"Blues/Blues Rock","Studio",43,1,61,5,"Male",9712,1964,29.6,8
+"239",293,2008,"Hip-Hop/Rap","Studio",147,1,71,1,"Male",1982,1999,26,9
+"240",-5,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",72,75,73,1,"Male",1947,1967,25,5
+"241",31,1972,"Soul/Gospel/R&B","Studio",109,3,67,1,"Male",1950,1962,22,10
+"242",290,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,50,4,"Male",7825,1979,23.75,1
+"243",287,1994,"Punk/Post-Punk/New Wave/Power Pop","Studio",75,5,65,1,"Male",1950,1976,44,18
+"244",285,1997,"Punk/Post-Punk/New Wave/Power Pop","Studio",1,173,62,1,"Male",1969,1994,28,3
+"245",284,1994,"Indie/Alternative Rock","Studio",20,58,69,5,"Male",9846,1994,24.8,0
+"246",282,1995,"Hip-Hop/Rap","Studio",21,4,57,1,"Male",1970,1995,25,0
+"247",-7,1972,"Soul/Gospel/R&B","Soundtrack",46,1,54,1,"Male",1942,1970,30,2
+"248",85,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",31,29,67,1,"Male",1942,1972,30,0
+"249",70,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",59,17,71,5,"Male",9739,1972,24.2,0
+"250",276,2002,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,13,50,5,"Male",9831,1995,35.8,7
+"251",-55,1972,"Reggae","Soundtrack",8,140,58,1,"Male",1944,1967,28,5
+"252",117,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,65,1,"Male",1948,1969,24,3
+"253",273,1991,"Hip-Hop/Rap","Studio",17,26,46,3,"Male",5907,1989,22,2
+"254",167,1972,"Country/Folk/Country Rock/Folk Rock","Studio",49,22,72,4,"Male",7788,1972,25,0
+"255",106,1972,"Singer-Songwriter/Heartland Rock","Studio",61,1,72,1,"Male",1947,1969,25,3
+"256",53,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",18,163,36,1,"Male",1943,1968,29,4
+"257",-21,1972,"Soul/Gospel/R&B","Studio",67,4,57,1,"Male",1946,1967,26,5
+"258",265,2001,"Electronic","Studio",28,23,74,2,"Male",3949,1997,26.5,4
+"259",-66,1972,"Soul/Gospel/R&B","Studio",35,21,43,1,"Male",1950,1962,22,10
+"260",-223,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",48,29,53,1,"Male",1948,1970,24,2
+"261",-158,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",36,4,63,1,"Male",1941,1965,31,7
+"262",-36,1972,"Singer-Songwriter/Heartland Rock","Studio",64.270979020979,201,48,4,"Male",7804,1972,21,0
+"263",-281,1972,"Punk/Post-Punk/New Wave/Power Pop","Compilation",64.270979020979,201,27,1,"Male",1918,1972,54,0
+"264",257,2008,"Hip-Hop/Rap","Studio",39,1,78,1,"Male",1977,2004,31,4
+"265",255,1991,"Hip-Hop/Rap","Studio",76,16,57,1,"Male",1968,1985,23,6
+"266",253,2004,"Punk/Post-Punk/New Wave/Power Pop","Studio",101,1,78,3,"Male",5916,1990,32,14
+"267",-270,1972,"Punk/Post-Punk/New Wave/Power Pop","Compilation",13,94,40,4,"Male",7778,1964,27.5,8
+"268",-183,1972,"Soul/Gospel/R&B","Studio",64.270979020979,201,62,3,"Male",5827,1965,29.66666667,7
+"269",-99,1972,"Blues/Blues Rock","Studio",11,112,38,1,"Male",1941,1968,31,4
+"270",-52,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",68,1,35,7,"Male",13607,1970,28.14285714,2
+"271",247,1973,"Big Band/Jazz","Studio",47,13,50,1,"Male",1940,1962,33,11
+"272",-10,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,89,53,5,"Male",9722,1969,27.6,3
+"273",240,1992,"Hip-Hop/Rap","Studio",35,10,55,3,"Male",5895,1986,27,6
+"274",239,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,57,4,"Male",7830,1981,25.5,2
+"275",-208,1972,"Punk/Post-Punk/New Wave/Power Pop","Greatest Hits",180,5,54,2,"Male",3882,1964,31,8
+"276",-11,1973,"Funk/Disco","Studio",89,4,62,1,"Male",1950,1962,23,11
+"277",236,1995,"Indie/Alternative Rock","Studio",1,117,52,5,"Male",9827,1992,29.6,3
+"278",-12,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",741,1,76,4,"Male",7776,1967,29,6
+"279",-21,1973,"Singer-Songwriter/Heartland Rock","Studio",91,1,74,1,"Male",1947,1969,26,4
+"280",-129,1973,"Hard Rock/Metal","Studio",88,1,64,4,"Male",7786,1969,26.5,4
+"281",232,2013,"Hip-Hop/Rap","Studio",36,1,80,1,"Male",1977,2004,36,9
+"282",-88,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",12,116,47,5,"Male",9748,1973,23.4,0
+"283",34,1973,"Reggae","Compilation",13,164,51,7,"Male",13608,1964,29,9
+"284",226,1970,"Soul/Gospel/R&B","Studio",49,19,20,1,"Male",1942,1970,28,0
+"285",-213,1973,"Singer-Songwriter/Heartland Rock","Studio",29,59,46,1,"Male",1949,1973,24,0
+"286",43,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",2,193,41,6,"Male",11688,1972,25,1
+"287",20,1973,"Country/Folk/Country Rock/Folk Rock","Studio",76,27,73,10,"Male",19502,1973,22.8,0
+"288",221,2003,"Hip-Hop/Rap","Studio",82,1,75,1,"Male",1975,2003,28,0
+"289",220,1971,"Punk/Post-Punk/New Wave/Power Pop","Studio",4,166,60,1,"Male",1941,1966,30,5
+"290",-257,1973,"Soul/Gospel/R&B","Studio",54,2,62,1,"Male",1939,1961,34,12
+"291",217,1996,"Country/Folk/Country Rock/Folk Rock","Compilation",64.270979020979,201,50,1,"Male",1937,1965,59,31
+"292",-138,1973,"Soul/Gospel/R&B","Studio",41,10,45,1,"Male",1946,1967,27,6
+"293",-376,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",3,182,44,4,"Male",7793,1969,24.75,4
+"294",-235,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",56,2,48,4,"Male",7779,1965,28.25,8
+"295",-224,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",22,17,56,1,"Male",1947,1967,26,6
+"296",211,2003,"Hip-Hop/Rap","Studio",56,1,75,2,"Male",3950,1994,28,9
+"297",-182,1973,"Reggae","Studio",6,151,58,6,"Male",11685,1965,25.5,8
+"298",-157,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",11,98,38,1,"Male",1942,1972,31,1
+"299",206,2013,"Electronic","Studio",53,1,74,2,"Male",3949,1997,38.5,16
+"300",-135,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",29,35,33,4,"Male",7778,1969,28.5,4
+"301",-122,1973,"Singer-Songwriter/Heartland Rock","Studio",36,60,46,1,"Male",1949,1973,24,0
+"302",203,1989,"Punk/Post-Punk/New Wave/Power Pop","Studio",75,3,74,1,"Male",1950,1976,39,13
+"303",-44,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",38,43,49,1,"Male",1948,1972,25,1
+"304",-3,1973,"Blues/Blues Rock","Studio",81,8,68,3,"Male",5847,1971,24,2
+"305",-17,1973,"Reggae","Studio",5,171,61,7,"Male/Female",13627,1965,26.28571429,8
+"306",197,1971,"Soul/Gospel/R&B","Studio",33,39,75,1,"Male",1938,1971,33,0
+"307",-315,1973,"Funk/Disco","Studio",33,7,58,11,"Male/Female",21410,1967,26.63636364,6
+"308",-83,1973,"Punk/Post-Punk/New Wave/Power Pop","Studio",116,1,65,5,"Male/Female",9713,1970,30.4,3
+"309",-229,1974,"Soul/Gospel/R&B","Studio",28,7,51,3,"Female",5833,1963,29.66666667,11
+"310",128,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",6,151,41,1,"Male",1948,1974,26,0
+"311",44,1974,"Singer-Songwriter/Heartland Rock","Studio",64.270979020979,201,37,3,"Male",5853,1972,23,2
+"312",182,1989,"Indie/Alternative Rock","Studio",26,86,65,4,"Male",7851,1989,26.25,0
+"313",-363,1974,"Funk/Disco","Studio",64.270979020979,201,45,4,"Male",7778,1969,29.5,5
+"314",-319,1974,"Reggae","Studio",28,92,57,1,"Male",1945,1965,29,9
+"315",-220,1974,"Soul/Gospel/R&B","Studio",38,1,62,1,"Male",1944,1973,30,1
+"316",-162,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,47,1,"Male",1949,1973,25,1
+"317",-129,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",29,14,45,1,"Male",1948,1972,26,2
+"318",-116,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",36,8,59,5,"Male",9739,1972,26.2,2
+"319",173,2013,"Indie/Alternative Rock","Studio",55,1,59,4,"Male",7935,2008,29.25,5
+"320",172,1996,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,55,1,"Male",1972,1996,24,0
+"321",-114,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",15,37,37,6,"Male",11690,1972,25.66666667,2
+"322",-108,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",23,36,35,1,"Male",1943,1968,31,6
+"323",168,1972,"Soul/Gospel/R&B","Studio",43,4,66,1,"Male",1938,1971,34,1
+"324",-92,1974,"Blues/Blues Rock","Studio",25,1,34,1,"Male",1945,1970,29,4
+"325",-72,1974,"Country/Folk/Country Rock/Folk Rock","Studio",3,195,44,1,"Male",1946,1973,28,1
+"326",-6,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,38,2,"Male/Female",3896,1974,26,0
+"327",18,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",17,47,33,1,"Female",1946,1975,29,0
+"328",-326,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",51,1,57,1,"Female",1946,1969,29,6
+"329",161,1993,"Hip-Hop/Rap","Studio",72,1,72,1,"Male",1971,1993,22,0
+"330",7,1975,"Country/Folk/Country Rock/Folk Rock","Studio",24,1,59,1,"Male",1941,1962,34,13
+"331",-3,1975,"Singer-Songwriter/Heartland Rock","Studio",110,3,65,1,"Male",1949,1973,26,2
+"332",102,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",56,4,40,4,"Male",7793,1973,26.75,2
+"333",155,2013,"Indie/Alternative Rock","Studio",275,6,91,4,"Male",7942,2006,27.5,7
+"334",154,1995,"Hip-Hop/Rap","Studio",24,9,60,1,"Male",1966,1991,29,4
+"335",-74,1975,"Hard Rock/Metal","Studio",28,1,49,4,"Male",7786,1969,28.5,6
+"336",-53,1975,"Country/Folk/Country Rock/Folk Rock","Studio",43,28,53,1,"Male",1933,1962,42,13
+"337",-55,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",39,1,70,4,"Male",7776,1967,31,8
+"338",-146,1975,"Hard Rock/Metal","Live",9,110,44,4,"Male",7797,1974,25.75,1
+"339",-44,1975,"Country/Folk/Country Rock/Folk Rock","Studio",14,7,44,1,"Male",1941,1962,34,13
+"340",95,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,49,1,"Male",1948,1974,27,1
+"341",-89,1975,"Funk/Disco","Studio",37,13,57,12,"Male",23368,1970,27.66666667,5
+"342",73,1975,"Funk/Disco","Studio",55,1,65,8,"Male",15620,1971,22.5,4
+"343",-404,1975,"Soul/Gospel/R&B","Greatest Hits",21,17,43,1,"Male",1946,1967,29,8
+"344",140,2006,"Punk/Post-Punk/New Wave/Power Pop","Studio",58,2,80,5,"Male",9894,2002,27.2,4
+"345",139,1981,"Funk/Disco","Studio",36,19,64,1,"Male",1951,1981,30,0
+"346",-343,1975,"Singer-Songwriter/Heartland Rock","Studio",43,1,54,1,"Male",1947,1969,28,6
+"347",136,2004,"Hip-Hop/Rap","Studio",1,179,73,2,"Male",3944,2004,32,0
+"348",-273,1975,"Hard Rock/Metal","Studio",128,11,72,5,"Male",9751,1973,24.8,2
+"349",134,2015,"Hip-Hop/Rap","Studio",201,1,77,1,"Male",1986,2010,29,5
+"350",-130,1975,"Punk/Post-Punk/New Wave/Power Pop","Studio",20,50,49,6,"Male",11690,1972,26.66666667,3
+"351",132,1995,"Hip-Hop/Rap","Studio",18,18,71,2,"Male",3948,1993,21,2
+"352",131,2005,"Hip-Hop/Rap","Studio",43,2,63,1,"Male",1982,1999,23,6
+"353",-318,1975,"Singer-Songwriter/Heartland Rock","Studio",166,1,50,5,"Male/Female",9732,1968,28.6,7
+"354",128,1969,"Soul/Gospel/R&B","Studio",81,8,34,1,"Male",1942,1968,27,1
+"355",52,1976,"Soul/Gospel/R&B","Studio",77,1,70,1,"Male",1950,1962,26,14
+"356",-14,1976,"Punk/Post-Punk/New Wave/Power Pop","Studio",18,111,41,4,"Male",7799,1976,26.25,0
+"357",125,1998,"Indie/Alternative Rock","Studio",64.270979020979,201,63,4,"Male",7883,1996,27.25,2
+"358",271,1976,"Punk/Post-Punk/New Wave/Power Pop","Studio",32,3,55,1,"Male",1947,1967,29,9
+"359",122,1981,"Hard Rock/Metal","Studio",68,3,65,3,"Male",5858,1974,28.33333333,7
+"360",121,1959,"Big Band/Jazz","Studio",64.270979020979,201,34,1,"Male",1922,1953,37,6
+"361",119,2015,"Indie/Alternative Rock","Studio",132,4,84,1,"Male",1986,2010,29,5
+"362",-81,1976,"Country/Folk/Country Rock/Folk Rock","Studio",158,1,76,5,"Male",9735,1972,29,4
+"363",93,1976,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,45,4,"Male",7799,1972,26.25,4
+"364",-190,1976,"Hard Rock/Metal","Studio",53,3,55,5,"Male",9751,1973,25.8,3
+"365",115,2006,"Hip-Hop/Rap","Studio",64.270979020979,201,65,1,"Male",1974,2001,32,5
+"366",114,2007,"Indie/Alternative Rock","Studio",52,1,76,5,"Male",9843,1993,38.4,14
+"367",106,2014,"Soul/Gospel/R&B","Studio",15,5,51,1,"Male",1974,1995,40,19
+"368",-327,1976,"Country/Folk/Country Rock/Folk Rock","Studio",35,1,58,1,"Male",1941,1962,35,14
+"369",102,2004,"Punk/Post-Punk/New Wave/Power Pop","Studio",17,13,36,1,"Male",1942,1988,62,16
+"370",99,1975,"Afrobeat","Studio",64.270979020979,201,35,1,"Male",1938,1970,37,5
+"371",98,2000,"Hip-Hop/Rap","Studio",19,7,47,1,"Male",1970,1996,30,4
+"372",-110,1976,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,46,1,"Male",1948,1972,28,4
+"373",93,1980,"Hard Rock/Metal","Studio",64.270979020979,201,45,3,"Male",5849,1977,30.33333333,3
+"374",-76,1976,"Punk/Post-Punk/New Wave/Power Pop","Compilation",39,10,39,1,"Male",1947,1967,29,9
+"375",91,1967,"Punk/Post-Punk/New Wave/Power Pop","Studio",15,24,47,6,"Male",11657,1962,24.16666667,5
+"376",-51,1976,"Blues/Blues Rock","Studio",97,3,72,1,"Male",1943,1968,33,8
+"377",-5,1976,"Hard Rock/Metal","Studio",78,11,55,4,"Male",7797,1974,26.75,2
+"378",82,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",60,3,57,2,"Male",3898,1972,28,5
+"379",85,1999,"Hip-Hop/Rap","Studio",18,4,58,8,"Male",15755,1993,29.625,6
+"380",98,1977,"Reggae","Studio",24,20,75,1,"Male",1945,1965,32,12
+"381",-39,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",12,106,51,5,"Male",9780,1977,21,0
+"382",82,2011,"Country/Folk/Country Rock/Folk Rock","Studio",154,1,71,1,"Male",1977,2006,34,5
+"383",-25,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",6,126,54,5,"Male",9773,1977,22.4,0
+"384",21,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,50,4,"Male",7798,1977,27.5,0
+"385",-32,1977,"Funk/Disco","Soundtrack",133,1,58,3,"Male",5844,1965,29,12
+"386",-102,1977,"Singer-Songwriter/Heartland Rock","Studio",137,2,55,1,"Male",1949,1971,28,6
+"387",43,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,11,56,1,"Male",1947,1967,30,10
+"388",15,1977,"Electronic","Studio",119,10,38,4,"Male",7792,1970,29,7
+"389",72,1967,"Soul/Gospel/R&B","Studio",21,11,58,4,"Male",7745,1965,30.75,2
+"390",100,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,57,4,"Male",7804,1977,26,0
+"391",-280,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",25,49,37,4,"Male",7799,1976,27.25,1
+"392",69,2004,"Soul/Gospel/R&B","Studio",103,1,79,1,"Male",1978,1994,26,10
+"393",-262,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",36,32,54,1,"Male",1954,1977,23,0
+"394",66,1987,"Electronic","Studio",45,25,31,2,"Male",3913,1986,30.5,1
+"395",65,1996,"Hip-Hop/Rap","Studio",100,1,79,1,"Male",1971,1991,25,5
+"396",64,1991,"Indie/Alternative Rock","Studio",64.270979020979,201,41,6,"Male",11780,1987,27.66666667,4
+"397",63,1994,"Indie/Alternative Rock","Studio",64.270979020979,201,48,4,"Male",7869,1991,26.75,3
+"398",62,1970,"Funk/Disco","Live",31,29,26,1,"Male",1933,1958,37,12
+"399",59,2015,"Punk/Post-Punk/New Wave/Power Pop","Studio",294,1,85,1,"Male",1990,2013,25,2
+"400",58,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",27,12,58,1,"Male",1947,1967,33,13
+"401",56,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",32,3,31,5,"Male",9737,1969,24.6,3
+"402",54,2018,"Latin","Studio",177,11,82,1,"Male",1994,2018,24,0
+"403",-52,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,41,2,"Male",3885,1977,34.5,0
+"404",51,1971,"Indie/Alternative Rock","Studio",42,2,43,1,"Male",1942,1970,29,1
+"405",48,1989,"Indie/Alternative Rock","Studio",113,75,57,1,"Male",1965,1989,24,0
+"406",47,1972,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,40,5,"Male",9711,1969,29.8,3
+"407",-176,1977,"Blues/Blues Rock","Studio",74,2,37,1,"Male",1945,1970,32,7
+"408",-158,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",82,14,63,1,"Male",1947,1977,30,0
+"409",43,2013,"Country/Folk/Country Rock/Folk Rock","Studio",14,23,53,1,"Male",1979,2007,34,6
+"410",42,2009,"Hip-Hop/Rap","Studio",297,4,32,1,"Male",1984,2009,25,0
+"411",40,2008,"Indie/Alternative Rock","Studio",64,21,70,1,"Male",1981,2008,27,0
+"412",-53,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",12,73,58,4,"Male",7801,1977,26.75,0
+"413",37,1973,"Funk/Disco","Studio",37,8,51,6,"Male",11673,1959,27.5,14
+"414",36,2003,"Afrobeat","Compilation",64.270979020979,201,28,1,"Male",1946,1982,57,21
+"415",18,1977,"Singer-Songwriter/Heartland Rock","Studio",134,1,79,5,"Male/Female",9732,1968,30.6,9
+"416",34,2009,"Soul/Gospel/R&B","Studio",53,1,54,1,"Male",1973,1996,36,13
+"417",-211,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",29,97,51,4,"Male/Female",7802,1977,26.5,0
+"418",32,1998,"Latin","Studio",64.270979020979,201,68,1,"Male",1961,1998,37,0
+"419",31,1998,"Hip-Hop/Rap","Studio",100,9,58,1,"Male",1975,1995,23,3
+"420",28,2004,"Latin","Studio",54,26,80,1,"Male",1977,1995,27,9
+"421",60,1978,"Singer-Songwriter/Heartland Rock","Studio",97,5,57,1,"Male",1949,1973,29,5
+"422",25,1974,"Punk/Post-Punk/New Wave/Power Pop","Studio",14,101,44,5,"Male",9749,1971,24.2,3
+"423",-23,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",17,30,52,1,"Male",1954,1977,24,1
+"424",-74,1978,"Rock n' Roll/Rhythm & Blues","Greatest Hits",12,55,29,1,"Male",1936,1957,42,21
+"425",19,1992,"Hip-Hop/Rap","Studio",19,75,61,5,"Male",9850,1992,22,0
+"426",195,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",18,78,48,5,"Male",9756,1978,26.8,0
+"427",15,2006,"Blues/Blues Rock","Studio",128,2,74,1,"Male",1977,2001,29,5
+"428",171,1978,"Singer-Songwriter/Heartland Rock","Studio",64.270979020979,201,30,2,"Male",3902,1972,27,6
+"429",123,1978,"Hard Rock/Metal","Studio",126,19,70,4,"Male",7816,1978,24,0
+"430",-71,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",136,18,67,5,"Male",9745,1978,29,0
+"431",10,2019,"Indie/Alternative Rock","Studio",203,1,87,1,"Male",1994,2017,25,2
+"432",6,1991,"Soul/Gospel/R&B","Studio",99,1,56,4,"Male",7887,1991,19.25,0
+"433",-199,1978,"Blues/Blues Rock","Studio",82,1,70,5,"Male",9710,1964,36,14
+"434",-31,1978,"Soul/Gospel/R&B","Studio",26,21,38,1,"Male",1939,1961,39,17
+"435",-244,1978,"Big Band/Jazz","Studio",117,30,48,1,"Male",1933,1962,45,16
+"436",-149,1978,"Singer-Songwriter/Heartland Rock","Studio",76,1,69,1,"Male",1949,1971,29,7
+"437",-71,1978,"Punk/Post-Punk/New Wave/Power Pop","Live",53,4,44,4,"Male",7801,1977,27.75,1
+"438",-67,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",63,23,73,3,"Male",5845,1978,29.66666667,0
+"439",-6,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",103,6,61,6,"Male/Female",11705,1976,27.16666667,2
+"440",18,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",42,29,42,4,"Male/Female",7802,1977,27.5,1
+"441",-8,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",33,27,68,4,"Male",7817,1977,24.75,2
+"442",32,1979,"Funk/Disco","Studio",169,3,73,1,"Male",1958,1972,21,7
+"443",-42,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",115,1,76,4,"Male",7776,1967,35,12
+"444",83,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",67,2,37,5,"Male",9756,1976,27.8,3
+"445",108,1979,"Punk/Post-Punk/New Wave/Power Pop","Compilation",64.270979020979,201,47,5,"Male",9783,1978,22.4,1
+"446",217,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,46,4,"Male",7822,1979,23.5,0
+"447",-302,1979,"Hard Rock/Metal","Studio",83,17,76,5,"Male",9757,1975,27.6,4
+"448",339,1995,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,64,6,"Male/Female",11788,1983,30.33333333,12
+"449",-166,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",24,40,24,1,"Male",1950,1976,29,3
+"450",-132,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",100,25,70,3,"Male",5845,1978,30.66666667,1
+"451",-32,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,24,4,"Male",7823,1978,23.25,1
+"452",256,1990,"Punk/Post-Punk/New Wave/Power Pop","Studio",19,99,68,3,"Male/Female",5887,1982,27.66666667,8
+"453",241,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,35,4,"Male/Female",7832,1979,21,0
+"454",-19,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",25,10,49,1,"Male",1954,1977,25,2
+"455",208,1993,"Punk/Post-Punk/New Wave/Power Pop","Compilation",36,33,63,4,"Male/Female",7851,1990,30.25,3
+"456",-46,1979,"Punk/Post-Punk/New Wave/Power Pop","Studio",74,59,53,5,"Male/Female",9762,1979,26.6,0
+"457",-11,1980,"Hard Rock/Metal","Studio",92,4,80,5,"Male",9758,1975,28.4,5
+"458",-152,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,44,4,"Male",7825,1979,23.75,1
+"459",81,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",20,24,53,4,"Male",7817,1977,25.75,3
+"460",147,1978,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,49,5,"Male/Female",9780,1978,22,0
+"461",143,1990,"Punk/Post-Punk/New Wave/Power Pop","Studio",15,96,55,4,"Male/Female",7829,1983,32.75,7
+"462",-122,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",52,45,40,1,"Male",1958,1978,22,2
+"463",-251,1980,"Singer-Songwriter/Heartland Rock","Studio",107,1,64,1,"Male",1949,1973,31,7
+"464",124,2003,"Punk/Post-Punk/New Wave/Power Pop","Studio",28,55,45,3,"Male/Female",5930,2003,26.33333333,0
+"465",-84,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",48,63,38,4,"Male",7842,1980,19.5,0
+"466",87,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",27,19,50,4,"Male/Female",7802,1977,29.5,3
+"467",100,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,41,5,"Male/Female",9758,1976,25.4,1
+"468",95,1999,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,57,4,"Male/Female",7870,1991,31.5,8
+"469",3,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",78,9,53,4,"Male/Female",7810,1979,27.5,1
+"470",87,1979,"Funk/Disco","Studio",17,5,49,5,"Male/Female",9760,1977,27,2
+"471",78,1997,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,58,3,"Male/Female",5886,1986,35,11
+"472",68,2007,"Punk/Post-Punk/New Wave/Power Pop","Studio",3,46,55,5,"Male/Female",9873,2005,32.4,2
+"473",-34,1980,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,37,4,"Male/Female",7812,1980,27,0
+"474",13,1981,"Punk/Post-Punk/New Wave/Power Pop","Studio",72,1,56,5,"Female",9785,1981,24,0
+"475",20,1996,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,45,8,"Male/Female",15774,1996,24.25,0
+"476",-147,1981,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,51,5,"Male",9785,1981,24,0
+"477",2,1977,"Funk/Disco","Studio",25,12,37,6,"Male/Female",11706,1973,26,4
+"478",1,2004,"Indie/Alternative Rock","Studio",15,123,61,6,"Male/Female",11862,2004,27,0
+"479",-290,1981,"Blues/Blues Rock","Studio",58,1,70,5,"Male",9710,1964,39,17
+"480",-501,1990,"Blues/Blues Rock","Compilation",31,80,32,1,"Male",1911,1937,79,53
+"481",-179,1981,"Punk/Post-Punk/New Wave/Power Pop","Studio",109,2,68,3,"Male",5845,1978,32.66666667,3
+"482",-30,1981,"Punk/Post-Punk/New Wave/Power Pop","Studio",2,184,24,4,"Male",7836,1980,22,1
+"483",-167,1981,"Punk/Post-Punk/New Wave/Power Pop","Studio",5,165,34,4,"Male/Female",7812,1980,28,1
+"484",8,1982,"Soul/Gospel/R&B","Studio",122,1,77,1,"Male",1958,1972,24,10
+"485",-30,1982,"Rock n' Roll/Rhythm & Blues","Greatest Hits",64.270979020979,201,33,1,"Male",1926,1957,56,25
+"486",33,1982,"Punk/Post-Punk/New Wave/Power Pop","Studio",153,9,52,1,"Male",1958,1978,24,4
+"487",74,1982,"Country/Folk/Country Rock/Folk Rock","Studio",29,3,51,1,"Male",1949,1973,33,9
+"488",-29,1982,"Punk/Post-Punk/New Wave/Power Pop","Studio",27,53,62,3,"Male",5842,1972,34.66666667,10
+"489",-335,1982,"Punk/Post-Punk/New Wave/Power Pop","Studio",24,30,42,1,"Male",1954,1977,28,5
+"490",-168,1982,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,26,2,"Male/Female",3896,1974,34,8
+"491",310,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",96,4,75,1,"Female",1953,1983,30,0
+"492",296,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",75,1,79,3,"Male",5845,1978,34.66666667,5
+"493",32,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",30,36,42,4,"Male",7832,1983,25,0
+"494",-280,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",180,12,65,4,"Male",7842,1980,22.5,3
+"495",-117,1983,"Hard Rock/Metal","Studio",116,2,66,6,"Male",11759,1980,23.16666667,3
+"496",-105,1983,"Blues/Blues Rock","Studio",183,9,69,3,"Male",5847,1971,34,12
+"497",-1,1983,"Punk/Post-Punk/New Wave/Power Pop","Studio",43,7,37,2,"Male/Female",3906,1981,30,2
+"498",-2,1984,"Reggae","Greatest Hits",36,54,56,1,"Male",1945,1965,39,19
+"499",-3,1984,"Country/Folk/Country Rock/Folk Rock","Greatest Hits",15,152,42,1,"Male",1923,1951,61,33
+"500",-57,1984,"Singer-Songwriter/Heartland Rock","Studio",139,1,77,1,"Male",1949,1973,35,11
+"501",83,1984,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,30,4,"Male",7845,1981,22.75,3
+"502",144,1984,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,52,3,"Male",5873,1981,26.33333333,3
+"503",-138,1984,"Hip-Hop/Rap","Studio",65,53,26,3,"Male",5893,1984,19.66666667,0
+"504",30,1984,"Blues/Blues Rock","Studio",34,47,35,5,"Male",9767,1978,30.6,6
+"505",-20,1984,"Punk/Post-Punk/New Wave/Power Pop","Studio",11,150,72,4,"Male",7849,1984,21.75,0
+"506",64,1984,"Punk/Post-Punk/New Wave/Power Pop","Studio",72,1,71,6,"Male/Female",11758,1978,24.33333333,6
+"507",-156,1984,"Punk/Post-Punk/New Wave/Power Pop","Live",118,41,57,4,"Male/Female",7802,1977,33.5,7
+"508",5,1985,"Soul/Gospel/R&B","Studio",162,1,69,1,"Female",1963,1985,22,0
+"509",203,1985,"Soul/Gospel/R&B","Live",8,134,37,1,"Male",1931,1958,54,27
+"510",40,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,181,53,1,"Male",1949,1973,36,12
+"511",-67,1985,"Singer-Songwriter/Heartland Rock","Studio",97,1,60,6,"Male",11712,1978,33,7
+"512",67,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,36,3,"Male",5880,1983,25,2
+"513",-365,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,183,34,4,"Male",7845,1981,23.75,4
+"514",-233,1985,"Indie/Alternative Rock","Studio",4,188,45,4,"Male",7845,1985,23.75,0
+"515",-206,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",32,110,62,4,"Male",7849,1984,22.75,1
+"516",-23,1985,"Hip-Hop/Rap","Studio",38,46,42,1,"Male",1968,1985,17,0
+"517",-56,1985,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,17,7,"Male/Female",13699,1984,28,1
+"518",35,1986,"Punk/Post-Punk/New Wave/Power Pop","Studio",97,3,49,1,"Male",1941,1965,45,21
+"519",70,1986,"Hard Rock/Metal","Studio",72,29,51,4,"Male",7850,1983,23.5,3
+"520",103,1986,"Punk/Post-Punk/New Wave/Power Pop","Studio",37,70,75,4,"Male",7849,1984,23.75,2
+"521",25,1986,"Hip-Hop/Rap","Studio",68,1,69,3,"Male",5895,1986,21,0
+"522",-89,1986,"Hip-Hop/Rap","Studio",71,3,65,3,"Male",5893,1984,21.66666667,2
+"523",-110,1986,"Punk/Post-Punk/New Wave/Power Pop","Studio",76,2,49,1,"Male",1950,1977,36,9
+"524",-171,1986,"Funk/Disco","Compilation",64.270979020979,201,39,1,"Male",1933,1958,53,28
+"525",-12,1986,"Punk/Post-Punk/New Wave/Power Pop","Studio",20,89,51,1,"Male",1955,1986,31,0
+"526",48,1987,"Punk/Post-Punk/New Wave/Power Pop","Studio",54,6,48,1,"Male",1958,1978,29,9
+"527",166,1987,"Hip-Hop/Rap","Studio",38,58,51,2,"Male",3931,1987,21.5,0
+"528",-1,1987,"Hard Rock/Metal","Studio",147,1,83,5,"Male",9818,1987,23.4,0
+"529",-109,1987,"Indie/Alternative Rock","Studio",103,1,60,4,"Male",7842,1980,26.5,7
+"530",329,1987,"Punk/Post-Punk/New Wave/Power Pop","Studio",87,1,69,1,"Male",1963,1987,24,0
+"531",8,1987,"Soul/Gospel/R&B","Studio",87,1,69,1,"Male",1958,1972,29,15
+"532",205,1987,"Hip-Hop/Rap","Studio",64.270979020979,201,24,3,"Male",5897,1987,21.33333333,0
+"533",-140,1987,"Punk/Post-Punk/New Wave/Power Pop","Compilation",60,36,66,4,"Male",7830,1981,29.5,6
+"534",-136,1987,"Punk/Post-Punk/New Wave/Power Pop","Compilation",25,62,76,4,"Male",7849,1984,24.75,3
+"535",-31,1987,"Indie/Alternative Rock","Studio",33,10,60,4,"Male",7832,1983,29,4
+"536",-29,1987,"Hard Rock/Metal","Studio",133,1,72,5,"Male",9799,1980,27.2,7
+"537",-26,1987,"Singer-Songwriter/Heartland Rock","Studio",45,1,57,1,"Male",1949,1973,38,14
+"538",-4,1987,"Hip-Hop/Rap","Studio",12,125,38,4,"Male",7845,1987,25.75,0
+"539",5,1988,"Punk/Post-Punk/New Wave/Power Pop","Studio",61,1,77,1,"Female",1964,1988,24,0
+"540",33,1988,"Hip-Hop/Rap","Studio",51,42,31,4,"Male",7845,1987,26.75,1
+"541",74,1988,"Hip-Hop/Rap","Studio",81,37,71,6,"Male",11793,1988,22.5,0
+"542",-192,1988,"Hard Rock/Metal","Studio",35,103,57,4,"Male",7858,1988,23.5,0
+"543",-42,1988,"Hip-Hop/Rap","Studio",23,80,46,3,"Male",5904,1988,20,0
+"544",158,1988,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,39,4,"Male/Female",7829,1983,30.75,5
+"545",-75,1988,"Indie/Alternative Rock","Studio",64.270979020979,201,70,4,"Male/Female",7852,1988,25,0
+"546",-94,1989,"Punk/Post-Punk/New Wave/Power Pop","Studio",77,1,58,1,"Female",1958,1983,31,6
+"547",-64,1989,"Soul/Gospel/R&B","Studio",108,1,54,1,"Female",1966,1982,23,7
+"548",-51,1989,"Punk/Post-Punk/New Wave/Power Pop","Studio",52,1,67,1,"Female",1966,1987,23,2
+"549",-263,1989,"Country/Folk/Country Rock/Folk Rock","Studio",185,1,45,1,"Female",1949,1971,40,18
+"550",243,1989,"Hip-Hop/Rap","Studio",20,24,56,3,"Male",5907,1989,20,0
+"551",210,1989,"Punk/Post-Punk/New Wave/Power Pop","Studio",55,12,47,6,"Male",11747,1979,31.16666667,10
+"552",31,1989,"Hip-Hop/Rap","Studio",15,14,57,3,"Male",5895,1986,24,3
+"553",-112,1989,"Singer-Songwriter/Heartland Rock","Studio",148,8,57,1,"Male",1947,1982,42,7
+"554",85,1989,"Indie/Alternative Rock","Studio",27,98,73,4,"Male/Female",7852,1988,26,1
+"555",140,1990,"Punk/Post-Punk/New Wave/Power Pop","Greatest Hits",141,2,61,1,"Female",1958,1983,32,7
+"556",175,1990,"Punk/Post-Punk/New Wave/Power Pop","Studio",74,7,61,4,"Male",7843,1981,29.25,9
+"557",124,1990,"Hip-Hop/Rap","Studio",27,10,48,3,"Male",5885,1987,28.33333333,3
+"558",-48,1990,"Hard Rock/Metal","Studio",60,19,48,4,"Male",7858,1988,25.5,2
+"559",11,1991,"Indie/Alternative Rock","Studio",252,1,77,3,"Male",5901,1989,24,2
+"560",111,1991,"Hip-Hop/Rap","Studio",51,45,64,4,"Male",7890,1990,18.5,1
+"561",25,1991,"Funk/Disco","Compilation",64.270979020979,201,54,1,"Male",1933,1958,58,33
+"562",-62,1991,"Indie/Alternative Rock","Studio",97,1,70,4,"Male",7842,1980,30.5,11
+"563",47,1991,"Indie/Alternative Rock","Studio",250,2,76,5,"Male",9825,1991,26,0
+"564",124,1991,"Indie/Alternative Rock","Studio",97,3,45,4,"Male",7855,1984,27.25,7
+"565",-157,1991,"Soul/Gospel/R&B","Compilation",64.270979020979,201,29,1,"Male",1930,1949,61,42
+"566",17,1991,"Hard Rock/Metal","Studio",281,1,73,4,"Male",7851,1983,28.25,8
+"567",146,1991,"Indie/Alternative Rock","Studio",64.270979020979,201,63,4,"Male/Female",7850,1988,28.5,3
+"568",154,1991,"Electronic","Studio",64.270979020979,201,60,6,"Male/Female",11775,1991,28.5,0
+"569",-180,1991,"Soul/Gospel/R&B","Greatest Hits",64.270979020979,201,39,2,"Male/Female",3870,1961,56,30
+"570",100,1992,"Hip-Hop/Rap","Studio",86,3,71,1,"Male",1965,1992,27,0
+"571",151,1992,"Indie/Alternative Rock","Studio",75,2,70,4,"Male",7832,1983,34,9
+"572",-65,1992,"Indie/Alternative Rock","Studio",64.270979020979,201,53,3,"Male",5885,1992,30.33333333,0
+"573",147,1992,"Hard Rock/Metal","Studio",89,45,54,4,"Male",7870,1992,24.5,0
+"574",272,1993,"Indie/Alternative Rock","Studio",1,196,47,1,"Female",1967,1993,26,0
+"575",252,1993,"Indie/Alternative Rock","Studio",1,158,46,1,"Female",1969,1992,24,1
+"576",359,1993,"Punk/Post-Punk/New Wave/Power Pop","Studio",42,41,41,9,"Male",17723,1993,23.77777778,0
+"577",266,1993,"Indie/Alternative Rock","Studio",87,1,76,3,"Male",5901,1989,26,4
+"578",19,1993,"Indie/Alternative Rock","Studio",89,10,52,4,"Male/Female",7867,1991,26.25,2
+"579",153,1994,"Soul/Gospel/R&B","Studio",46,7,60,1,"Female",1971,1992,23,2
+"580",159,1994,"Soul/Gospel/R&B","Studio",99,3,68,3,"Female",5912,1992,23.33333333,2
+"581",111,1994,"Hip-Hop/Rap","Studio",59,15,76,1,"Male",1972,1994,22,0
+"582",356,1994,"Hip-Hop/Rap","Studio",19,12,71,1,"Male",1973,1994,21,0
+"583",78,1994,"Indie/Alternative Rock","Studio",115,2,62,4,"Male",7873,1989,25.75,5
+"584",156,1994,"Punk/Post-Punk/New Wave/Power Pop","Studio",7,149,70,1,"Male",1966,1994,28,0
+"585",32,1994,"Indie/Alternative Rock","Live",81,1,73,3,"Male",5901,1989,27,5
+"586",3,1994,"Punk/Post-Punk/New Wave/Power Pop","Studio",76,16,76,4,"Male",7876,1994,25,0
+"587",-182,1994,"Punk/Post-Punk/New Wave/Power Pop","Studio",113,2,78,3,"Male",5916,1990,22,4
+"588",-224,1994,"Indie/Alternative Rock","Studio",121,4,52,5,"Male",9827,1992,28.6,2
+"589",-165,1994,"Indie/Alternative Rock","Studio",75,1,64,4,"Male",7854,1988,30.5,6
+"590",-137,1994,"Country/Folk/Country Rock/Folk Rock","Studio",9,110,45,1,"Male",1932,1957,62,37
+"591",-8,1994,"Indie/Alternative Rock","Studio",55,1,61,6,"Male",11789,1991,29.16666667,3
+"592",360,1994,"Indie/Alternative Rock","Studio",68,52,62,4,"Male/Female",7861,1991,28.75,3
+"593",288,1994,"Electronic","Studio",17,79,70,3,"Male/Female",5893,1994,29.66666667,0
+"594",258,1995,"Indie/Alternative Rock","Studio",113,1,58,1,"Female",1974,1991,21,4
+"595",84,1995,"Punk/Post-Punk/New Wave/Power Pop","Studio",20,32,52,1,"Female",1965,1977,30,18
+"596",-66,1995,"Indie/Alternative Rock","Studio",15,40,54,1,"Female",1969,1992,26,3
+"597",219,1995,"Indie/Alternative Rock","Studio",76,4,67,5,"Male",9847,1994,25.6,1
+"598",-166,1995,"Indie/Alternative Rock","Studio",24,88,77,5,"Male",9843,1993,26.4,2
+"599",-60,1995,"Punk/Post-Punk/New Wave/Power Pop","Studio",90,1,73,5,"Male/Female",9843,1992,26.4,3
+"600",-14,1995,"Indie/Alternative Rock","Studio",93,1,60,4,"Male/Female",7867,1991,28.25,4
+"601",181,1996,"Hip-Hop/Rap","Studio",18,23,58,1,"Male",1969,1996,27,0
+"602",-119,1996,"Indie/Alternative Rock","Studio",86,16,51,1,"Male",1970,1993,26,3
+"603",343,1996,"Hip-Hop/Rap","Studio",64,1,43,3,"Male/Female",5916,1994,24,2
+"604",-62,1997,"Soul/Gospel/R&B","Studio",74,1,62,1,"Female",1966,1982,31,15
+"605",120,1997,"Indie/Alternative Rock","Studio",55,21,79,5,"Male",9843,1993,28.4,4
+"606",304,1997,"Hip-Hop/Rap","Studio",79,1,75,1,"Male",1972,1994,25,3
+"607",-241,1997,"Latin","Studio",19,80,67,2,"Male",3901,1997,46.5,0
+"608",-93,1997,"Singer-Songwriter/Heartland Rock","Studio",29,10,48,1,"Male",1941,1962,56,35
+"609",302,1998,"Hip-Hop/Rap","Studio",81,1,75,1,"Female",1975,1998,23,0
+"610",206,1998,"Country/Folk/Country Rock/Folk Rock","Studio",20,65,50,1,"Female",1953,1979,45,19
+"611",141,1998,"Electronic","Studio",78,2,63,1,"Female",1958,1983,40,15
+"612",29,1998,"Electronic","Studio",7,60,66,5,"Male",9804,1991,37.2,7
+"613",-276,1998,"Punk/Post-Punk/New Wave/Power Pop","Compilation",64.270979020979,201,52,1,"Male",1923,1951,75,47
+"614",-78,1998,"Punk/Post-Punk/New Wave/Power Pop","Greatest Hits",64.270979020979,201,39,4,"Male/Female",7760,1966,58,32
+"615",113,1999,"Indie/Alternative Rock","Studio",101,3,64,4,"Male",7855,1984,35.25,15
+"616",-79,1999,"Hip-Hop/Rap","Studio",105,2,73,1,"Male",1972,1996,27,3
+"617",-160,1999,"Electronic","Studio",94,38,58,1,"Male",1965,1992,34,7
+"618",-85,1999,"Punk/Post-Punk/New Wave/Power Pop","Studio",9,30,47,1,"Male",1949,1973,50,26
+"619",-75,1999,"Hard Rock/Metal","Studio",51,1,69,4,"Male",7870,1992,31.5,7
+"620",-49,2000,"Electronic","Studio",55,1,43,1,"Female",1958,1983,42,17
+"621",408,2000,"Indie/Alternative Rock","Studio",28,1,70,5,"Male",9843,1993,31.4,7
+"622",460,2000,"Soul/Gospel/R&B","Studio",33,1,59,1,"Male",1974,1995,26,5
+"623",295,2000,"Hip-Hop/Rap","Studio",46,2,74,2,"Male",3950,1994,25,6
+"624",157,2000,"Hip-Hop/Rap","Studio",173,1,82,1,"Male",1972,1996,28,4
+"625",-362,2000,"Indie/Alternative Rock","Studio",94,3,60,4,"Male",7842,1980,39.5,20
+"626",414,2001,"Hip-Hop/Rap","Studio",35,1,63,1,"Male",1969,1996,32,5
+"627",253,2001,"Indie/Alternative Rock","Studio",58,33,67,5,"Male",9897,2001,21.6,0
+"628",56,2001,"Singer-Songwriter/Heartland Rock","Studio",26,5,35,1,"Male",1941,1962,60,39
+"629",-123,2001,"Punk/Post-Punk/New Wave/Power Pop","Studio",186,1,50,4,"Male/Female",7786,1973,54.5,28
+"630",-185,2001,"Punk/Post-Punk/New Wave/Power Pop","Studio",76,9,61,4,"Male/Female",7876,1992,32,9
+"631",-501,1969,"Punk/Post-Punk/New Wave/Power Pop","Studio",171,5,36,1,"Male",1944,1965,25,4
+"632",-501,1977,"Punk/Post-Punk/New Wave/Power Pop","Studio",5,168,36,4,"Male",7790,1975,29.5,2
+"633",-501,1972,"Country/Folk/Country Rock/Folk Rock","Studio",15,131,48,1,"Female",1949,1971,23,1
+"634",-501,1971,"Blues/Blues Rock","Live",33,25,40,1,"Male",1925,1956,46,15
+"635",-501,2006,"Singer-Songwriter/Heartland Rock","Studio",27,1,38,1,"Male",1941,1962,65,44
+"636",-501,2002,"Singer-Songwriter/Heartland Rock","Studio",37,1,55,1,"Male",1949,1973,53,29
+"637",-501,2001,"Indie/Alternative Rock","Studio",16,2,63,5,"Male",9843,1993,32.4,8
+"638",-16,2002,"Country/Folk/Country Rock/Folk Rock","Greatest Hits",64.270979020979,201,26,1,"Female",1932,1963,70,39
+"639",149,2002,"Indie/Alternative Rock","Studio",104,5,82,4,"Male",7910,2000,24.5,2
+"640",-501,2008,"Indie/Alternative Rock","Studio",53,17,67,4,"Male",7935,2008,24.25,0
+"641",-501,2007,"Electronic","Studio",45,18,69,1,"Female",1975,2005,32,2
+"642",-501,2006,"Indie/Alternative Rock","Studio",19,24,76,4,"Male",7943,2006,20.25,0
+"643",-501,2007,"Indie/Alternative Rock","Studio",111,38,74,2,"Male",3965,2007,24.5,0
+"644",-501,2001,"Blues/Blues Rock","Studio",52,61,68,2,"Male/Female",3949,1999,26.5,2
+"645",-501,2005,"Indie/Alternative Rock","Studio",6,67,51,5,"Male",9882,1999,28.6,6
+"646",-501,1976,"Blues/Blues Rock","Greatest Hits",14,100,64,4,"Male",7776,1968,32,8
+"647",-184,2002,"Hip-Hop/Rap","Studio",104,1,87,1,"Male",1972,1996,30,6
+"648",-69,2002,"Punk/Post-Punk/New Wave/Power Pop","Studio",64.270979020979,201,30,1,"Male",1946,1984,56,18
+"649",-61,2002,"Indie/Alternative Rock","Studio",26,8,51,1,"Male",1970,1993,32,9
+"650",-201,2003,"Soul/Gospel/R&B","Greatest Hits",1,135,55,1,"Male",1931,1958,72,45
+"651",-59,2003,"Blues/Blues Rock","Studio",57,6,76,2,"Male/Female",3949,1999,28.5,4
+"652",-501,2001,"Latin","Studio",64.270979020979,201,73,1,"Male",1961,1998,40,3
+"653",-501,2011,"Punk/Post-Punk/New Wave/Power Pop","Compilation",64.270979020979,201,41,6,"Male",11657,1962,68.16666667,49
