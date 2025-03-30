@@ -14,18 +14,20 @@ The **full analysis report** can be viewed [here](reports/analysis.pdf).
 ---
 ## Usage
 We use a Docker container to ensure a reproducible computational environment. Here is how to execute the project:
-  
+
 
 ### Interactive Mode (Exploring in Jupyter Lab)
 
-- Start docker
-- Go to your command line and type in: docker pull rchen34/dsci310-group-4:latest
-- Run the docker image with: docker run -p 8888:8888 rchen34/dsci310-group-4:latest
-- Open the notebook in your browser with the http://127.0.0.1:8888 link in the console output
-- In the File tab, under the New dropdown, open a Terminal
-- In the terminal type make all
-- The visualizations and data are stored in the data folder
-- The results of the knn model are stored in the results folder
+- Start docker desktop.
+- Open a terminal and type in: docker pull rchen34/dsci310-group-4:latest.
+- Run the docker image with: docker run -p 8888:8888 rchen34/dsci310-group-4:latest.
+- Open the notebook in a browser with the http://127.0.0.1:8888 URL link from the console output.
+- In the File tab, under the New dropdown, open a Terminal.
+- In the terminal, type in the command: make
+- Visualizations of the summary statistics of the downloaded rolling stone dataset are created in the data folder.
+- A table of the knn model's performance is created in the results folder along with a sample of the testing and training datasets.
+- The final reports are created in the reports folder and are called analysis.pdf and analysis.html.
+- The Rscripts for testing purposes are located in the tests/testthat directory.
 
 ## Dependencies 
 
