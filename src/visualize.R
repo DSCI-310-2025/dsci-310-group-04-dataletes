@@ -4,7 +4,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(ggpubr)
-source("R/data_utils.R")
+source("R/visualize_functions.R")
 
 doc <- "
 Usage:

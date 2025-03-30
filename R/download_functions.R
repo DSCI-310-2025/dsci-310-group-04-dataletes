@@ -19,6 +19,10 @@ download_rolling_stone_data <- function(url, destination) {
     stop("URL and destination must be character strings")
   }
   
+  if (url == "") {
+    stop("cannot open empty URL")
+  }
+
   if (destination == "") {
     stop("Destination path cannot be empty")
   }

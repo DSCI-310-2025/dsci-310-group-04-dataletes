@@ -8,6 +8,7 @@ library(ggpubr)
 library(gridExtra)
 library(grid)
 library(knitr)
+source("R/model_functions.R")
 
 doc <- "
 Usage:
@@ -70,23 +71,19 @@ test_data_final <- cbind(test_data_final, target = test_data_target_filtered)
 train_data_final <- cbind(train_data_features_scaled, target = train_data_cleaned[[target_col]])
 
 # Check the final datasets
-head(train_data_final)
-head(test_data_final)
+traininghead <- head(train_data_final,10)
+testinghead <- head(test_data_final,10)
+
+
+
 #make dest if it does not exist
 if (dir.exists(args$destination)) {
   unlink(args$destination, recursive = TRUE)
 }
 dir.create(args$destination)
-# Save head of train_data_final
-png(paste0(args$destination,"/train_data_head.png"), width = 1500, height = 400)
-grid.table(head(train_data_final, 10))  # Adjust number of rows if needed
-dev.off()
 
-# Save head of test_data_final
-png(paste0(args$destination,"/test_data_head.png"), width = 1500, height = 400)
-grid.table(head(test_data_final, 10))  # Adjust number of rows if needed
-dev.off()
-
+create_table(traininghead,"First 10 rows of the Training Dataset",args$destination,"train_data_head",list(1500,400))
+create_table(testinghead,"First 10 rows of the Testing Dataset",args$destination,"test_data_final",list(1500,400))
 
 # Define the formula
 formula <- as.formula("target ~ .")
@@ -138,16 +135,5 @@ best_knn <- knn_model$bestTune$k
 caption_text <- paste(paste(paste("kNN Model Tuning Results with Best k:", best_knn),"\n"),paste(paste("RMSE on Testing Set:", rmse),paste("R-squared on Testing Set:", r2)))
 
 # Save table as PNG
-png(paste0(args$destination,"/knn_tuning_results.png"), width = 1000, height = 600)
 
-# Create table grob
-table_grob <- tableGrob(tuning_results)
-
-# Draw the caption first
-grid.text(caption_text, x = 0.5, y = 0.97, gp = gpar(fontsize = 14, fontface = "bold"))
-
-# Draw the table below the caption
-grid.draw(table_grob)
-
-# Close the PNG device
-dev.off()
+create_table(tuning_results,caption_text,args$destination,"knn_tuning_results",list(1000,600))
