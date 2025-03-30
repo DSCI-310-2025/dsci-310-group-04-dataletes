@@ -4,6 +4,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(ggpubr)
+source("R/data_utils.R")
 
 doc <- "
 Usage:
@@ -29,24 +30,7 @@ numeric_vars <- train_data %>%
   select(where(is.numeric))
 
 # Create an empty list to store plots
-plots <- list()
-
-# Loop through all numeric variables (excluding the target variable)
-num <- 1
-
-for (var in names(numeric_vars)) {
-  if (var != "weeks_on_billboard") {  # Skip the target variable
-    # Create scatter plot
-    p <- ggplot(train_data, aes(x = .data[[var]], y = weeks_on_billboard)) +
-      geom_point(alpha = 0.5, color = "blue") +  # Add points with transparency
-      geom_smooth(method = "lm", se = FALSE, color = "red") +  # Add a linear trendline
-      labs(title = paste0("Figure ", num, ": Weeks on Billboard vs. ", var), x = var, y = "Weeks on Billboard")
-    
-    # Add the plot to the list
-    plots[[num]] <- p
-    num <- num + 1
-  }
-}
+plots <- generate_scatterplots(names(numeric_vars),train_data,"weeks_on_billboard",1)
 
 # Compute correlations with the target variable (this was missing)
 correlations <- train_data %>%

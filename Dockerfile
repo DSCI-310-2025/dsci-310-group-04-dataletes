@@ -45,8 +45,8 @@ RUN mamba install --yes \
 # Create necessary directories for jovyan user
 RUN mkdir -p /home/${NB_USER}/data && \
     mkdir -p /home/${NB_USER}/src && \
-    mkdir -p /home/${NB_USER}/reports
-
+    mkdir -p /home/${NB_USER}/reports && \
+    mkdir -p /home/${NB_USER}/R
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
 RUN apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
@@ -60,13 +60,13 @@ RUN fix-permissions "${CONDA_DIR}" && \
 
 # Install Perl
 RUN apt-get update && apt-get install -y perl=5.38.2-3.2build2.1
-# Install TinyTeX via R
-RUN R -e "remotes::install_version('tinytex', '0.56', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
-    R -e "tinytex::install_tinytex()"
-# Set write permissions to jovyan user
+# Give permissions to everyone
 RUN chmod -R a+w /home/jovyan
+# Install TinyTeX via R
 # Ensure TinyTeX is available in the environment for R
 USER ${NB_UID}
+RUN R -e "remotes::install_version('tinytex', '0.56', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
+    R -e "tinytex::install_tinytex()"
 
 # Expose Jupyter port
 ENV JUPYTER_PORT=8888
@@ -75,6 +75,7 @@ EXPOSE $JUPYTER_PORT
 # Copy Jupyter notebooks and R scripts
 COPY src/*.ipynb /home/${NB_USER}/src
 COPY src/*.R /home/${NB_USER}/src/
+COPY R/*.R /home/${NB_USER}/R/
 COPY reports/*.qmd /home/${NB_USER}/reports/
 COPY reports/*.bib /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}
