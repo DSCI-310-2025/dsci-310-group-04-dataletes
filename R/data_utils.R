@@ -143,11 +143,28 @@ process_rolling_stone_data <- function(url, raw_destination, cleaned_destination
 #' }
 generate_scatterplots <- function(vars, plotdata, target, numberfrom) {
 plots <- list()
+if (!is.character(target)) {
+  stop(paste0("Expected string but was given: ",as.character(target)))
+}
 
 # Loop through all numeric variables (excluding the target variable)
 num <- 1
 number <- numberfrom
+missing_vars <- setdiff(vars, colnames(plotdata))
+if (length(missing_vars) > 0) {
+  stop("Unknown variables in variable name list")
+}
+non_numeric_vars <- vars[!sapply(vars, function(var) is.numeric(plotdata[[var]]))]
+  
+if (length(non_numeric_vars) > 0) {
+  stop(paste("Non-numeric variables referenced in variable list"))
+}
+
 for (var in vars) {
+
+  if (!is.character(var)) {
+    stop(paste0("Expected string but was given: ",as.character(var)))
+  }
   if (var != target) {  # Skip the target variable
     # Create scatter plot
     p <- ggplot(plotdata, aes(x = .data[[var]], y = .data[[target]])) +

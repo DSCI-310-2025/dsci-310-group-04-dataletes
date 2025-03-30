@@ -125,3 +125,26 @@ test_that("generate_scatterplots creates scatterplots correctly", {
   expect_true(inherits(plots[[1]]$layers[[2]]$geom, "GeomSmooth"))
 })
 
+test_that("generate_scatterplots throws error for non-existent column references", {
+  expect_error(generate_scatterplots(
+   c("Oldness","Points"),
+   data.frame(
+   Age = c(25, 30, 35),
+   Score = c(85.5, 90.0, 78.3)
+   ),
+   "Oldness",
+   5
+ ),"Unknown variables in variable name list")
+})
+
+test_that("generate_scatterplots throws error for non-numeric variables", {
+  expect_error(generate_scatterplots(
+   c("Age","Score"),
+   data.frame(
+   Age = c("25", "30", "35"),
+   Score = c(85.5, 90.0, 78.3)
+   ),
+   "Age",
+   5
+ ),"Non-numeric variables referenced in variable list")
+})

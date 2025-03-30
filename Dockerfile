@@ -56,18 +56,17 @@ RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
     fix-permissions "/home/${NB_USER}/data" && \
     fix-permissions "/home/${NB_USER}/src" && \
-    fix-permissions "/home/${NB_USER}/reports" && \
-    fix-permissions "/home/${NB_USER}/R"
+    fix-permissions "/home/${NB_USER}/reports"
 
 # Install Perl
 RUN apt-get update && apt-get install -y perl=5.38.2-3.2build2.1
-# Install TinyTeX via R
-RUN R -e "remotes::install_version('tinytex', '0.56', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
-    R -e "tinytex::install_tinytex()"
-# Set write permissions to jovyan user
+# Give permissions to everyone
 RUN chmod -R a+w /home/jovyan
+# Install TinyTeX via R
 # Ensure TinyTeX is available in the environment for R
 USER ${NB_UID}
+RUN R -e "remotes::install_version('tinytex', '0.56', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
+    R -e "tinytex::install_tinytex()"
 
 # Expose Jupyter port
 ENV JUPYTER_PORT=8888
