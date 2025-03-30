@@ -27,9 +27,8 @@ clean_rolling_stone_data <- function(data) {
                         data <- data %>% dplyr::select(-all_of(cols_to_drop))
             }
             
-            # Remove duplicates based on title and artist
-            data <- data %>% 
-                        dplyr::distinct(title, artist, .keep_all = TRUE)
+            # Remove duplicates
+            data <- dplyr::distinct(data)
             
             # Impute missing values in 'genre' with the most frequent value
             if ("genre" %in% names(data)) {

@@ -1,7 +1,7 @@
 library(testthat)
 library(readr)
 library(tibble)
-source("../../R/download_functions.R")
+source("R/download_functions.R")
 
 # Test data creation helper function
 create_test_data <- function() {
@@ -53,7 +53,7 @@ test_that("download_rolling_stone_data handles invalid inputs", {
   # Test with empty inputs
   expect_error(
     download_rolling_stone_data("", "test.csv"),
-    "cannot open URL ''"
+    "cannot open empty URL"
   )
   expect_error(
     download_rolling_stone_data("http://example.com", ""),
