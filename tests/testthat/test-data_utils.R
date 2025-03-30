@@ -148,3 +148,4 @@ test_that("generate_scatterplots throws error for non-numeric variables", {
    5
  ),"Non-numeric variables referenced in variable list")
 })
+
