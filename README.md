@@ -9,11 +9,11 @@ This project builds a regression model using the k-nearest neighbors (kNN) algor
 ---
 
 ## Report
-You can view the **full analysis report** [here](reports/analysis.pdf).
+The **full analysis report** can be viewed [here](reports/analysis.pdf).
 
 ---
 ## Usage
-We use a Docker container to ensure a reproducible computational environment. There are two ways to execute the project:
+We use a Docker container to ensure a reproducible computational environment. Here is how to execute the project:
   
 
 ### Interactive Mode (Exploring in Jupyter Lab)
