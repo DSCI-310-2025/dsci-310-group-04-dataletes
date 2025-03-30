@@ -1,6 +1,6 @@
 library(docopt)
 library(readr)
-source("R/data_utils.R")
+source("R/download_functions.R")
 
 # Define usage string
 doc <- "
@@ -15,4 +15,4 @@ Options:
 args <- docopt(doc)
 
 # Download the data using our new function
-rollingstone <- download_data(args$url, args$destination)
+rollingstone <- download_rolling_stone_data(args$url, args$destination)

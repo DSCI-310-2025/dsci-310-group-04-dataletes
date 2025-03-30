@@ -2,7 +2,7 @@ library(docopt)
 library(readr)
 library(dplyr)
 library(tidyr)
-source("R/data_utils.R")
+source("R/clean_functions.R")
 
 # Define usage string
 doc <- "
