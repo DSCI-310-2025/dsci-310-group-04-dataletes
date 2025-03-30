@@ -45,8 +45,8 @@ RUN mamba install --yes \
 # Create necessary directories for jovyan user
 RUN mkdir -p /home/${NB_USER}/data && \
     mkdir -p /home/${NB_USER}/src && \
-    mkdir -p /home/${NB_USER}/reports
-
+    mkdir -p /home/${NB_USER}/reports && \
+    mkdir -p /home/${NB_USER}/R
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
 RUN apt-get update && apt-get install -y libfontconfig1=2.15.0-1.1ubuntu2
@@ -56,7 +56,8 @@ RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
     fix-permissions "/home/${NB_USER}/data" && \
     fix-permissions "/home/${NB_USER}/src" && \
-    fix-permissions "/home/${NB_USER}/reports"
+    fix-permissions "/home/${NB_USER}/reports" && \
+    fix-permissions "/home/${NB_USER}/R"
 
 # Install Perl
 RUN apt-get update && apt-get install -y perl=5.38.2-3.2build2.1
@@ -75,6 +76,7 @@ EXPOSE $JUPYTER_PORT
 # Copy Jupyter notebooks and R scripts
 COPY src/*.ipynb /home/${NB_USER}/src
 COPY src/*.R /home/${NB_USER}/src/
+COPY R/*.R /home/${NB_USER}/R/
 COPY reports/*.qmd /home/${NB_USER}/reports/
 COPY reports/*.bib /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}
