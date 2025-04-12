@@ -2,7 +2,7 @@ library(docopt)
 library(readr)
 library(dplyr)
 library(tidyr)
-source("R/clean_functions.R")
+library(dataletes)
 
 # Define usage string
 doc <- "

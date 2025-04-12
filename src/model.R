@@ -8,7 +8,7 @@ library(ggpubr)
 library(gridExtra)
 library(grid)
 library(knitr)
-source("R/model_functions.R")
+library(dataletes)
 
 doc <- "
 Usage:
@@ -120,6 +120,7 @@ knn_model <- train(
 predictions <- predict(knn_model, newdata = test_data_final)
 # Calculate RMSE
 rmse <- sqrt(mean((test_data_final$target - predictions)^2))
+write(paste0("rmse: ", as.character(rmse)), "reports/output.txt", append = TRUE)
 
 # Calculate R-squared
 ss_total <- sum((test_data_final$target - mean(test_data_final$target))^2)
@@ -127,7 +128,7 @@ ss_residual <- sum((test_data_final$target - predictions)^2)
 r2 <- 1 - (ss_residual / ss_total)
 
 model_summary <- paste(paste("RMSE on Testing Set:", rmse),paste("R-squared on Testing Set:", r2))
-
+write(paste0("perr: ", as.character(r2)), "reports/output.txt", append = TRUE)
 # Extract tuning results
 tuning_results <- knn_model$results
 # Extract the best model's results

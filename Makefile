@@ -1,4 +1,7 @@
-all: data/rolling_stone.csv \
+.PHONY: clean all
+
+all:    clean \
+	data/rolling_stone.csv \
 	data/cleaned_data.csv \
 	data/visualizations.png \
 	results \
@@ -15,7 +18,7 @@ data/cleaned_data.csv: data/rolling_stone.csv
 	Rscript src/clean.R data/rolling_stone.csv data/cleaned_data.csv
 
 # create a png of the visualizations
-data/visualizations.png: data/cleaned_data.csv 
+data/visualizations.png: data/cleaned_data.csv
 	Rscript src/visualize.R data/cleaned_data.csv data/visualizations.png
 
 # create and visualize the knn model
@@ -23,10 +26,10 @@ results: data/cleaned_data.csv
 	Rscript src/model.R data/cleaned_data.csv results
 
 # render quarto report in HTML and PDF
-reports/analysis.html: data/visualizations.png results
+reports/analysis.html: data/visualizations.png results reports/output.txt
 	quarto render reports/analysis.qmd --to html
 
-reports/analysis.pdf: data/visualizations.png results
+reports/analysis.pdf: data/visualizations.png results reports/output.txt
 	quarto render reports/analysis.qmd --to pdf
 
 # clean
@@ -35,4 +38,5 @@ clean:
 	rm -rf data/*
 	rm -rf reports/analysis.html \
 		reports/analysis.pdf \
-		reports/analaysis_files
+		reports/analaysis_files \
+		reports/output.txt

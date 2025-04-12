@@ -4,7 +4,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(ggpubr)
-source("R/visualize_functions.R")
+library(dataletes)
 
 doc <- "
 Usage:
@@ -38,6 +38,9 @@ correlations <- train_data %>%
   cor() %>%
   as.data.frame() %>%
   select(weeks_on_billboard)
+write(paste0("hcor: ", as.character(correlations[[1]][5])), "reports/output.txt", append = TRUE)
+write(paste0("lcor: ", as.character(correlations[[1]][10])), "reports/output.txt", append = TRUE)
+write(paste0("tIQR: ", as.character(IQR(cleaned_data$weeks_on_billboard))), "reports/output.txt", append = TRUE)
 
 # Create a bar plot for the correlations
 barplot <- ggplot(correlations, aes(x=rownames(correlations), y=weeks_on_billboard)) + 
