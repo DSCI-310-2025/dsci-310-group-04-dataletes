@@ -1,6 +1,6 @@
 library(docopt)
 library(readr)
-source("R/download_functions.R")
+library(dataletes)
 
 # Define usage string
 doc <- "

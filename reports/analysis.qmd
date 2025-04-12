@@ -26,10 +26,19 @@ artists, and record labels understand the factors that contribute to an
 album’s longevity on the chart and make informed decisions about
 marketing and production strategies.
 
+```{r getlines}
+lines <- readLines("output.txt")
+hcor <- round(as.numeric(substr(lines[1], 6, nchar(lines[1]))),2)
+lcor <- round(as.numeric(substr(lines[2], 6, nchar(lines[2]))),2)
+tiqr <- round(as.numeric(substr(lines[3], 6, nchar(lines[3]))),2)
+rmse <- round(as.numeric(substr(lines[4], 6, nchar(lines[4]))),2)
+perr <- round(as.numeric(substr(lines[5], 6, nchar(lines[5])))*100,2)
+```
+
 Our current model has a prediction error, as measured by the Root Mean
-Squared Error (RMSE), of approximately 72.16 weeks. This model has room
+Squared Error (RMSE), of approximately `{r} rmse` weeks. This model has room
 for improvement, given that the weeks_on_billboard values has an
-Interquartile range of about 37 weeks.
+Interquartile range of about `{r} tiqr` weeks.
 
 # Introduction
 
@@ -87,9 +96,9 @@ chart?
 
 To answer this question, we used a k-nearest neighbors (kNN) regression
 model and data from Rolling Stone's rankings. We found that our model
-has a prediction error of approximately 72.16 weeks, which is reasonable
+has a prediction error of approximately `{r} rmse` weeks, which is reasonable
 given the variability in the data. However, there is room for
-improvement, as the model explains 18.67% of the variability in
+improvement, as the model explains `{r} perr`% of the variability in
 weeks_on_billboard.
 
 # Methodolgy
@@ -205,12 +214,12 @@ Our interpretation of the data: The correlations between the predictors
 and the weeks on the billboard were generally weak. The variable that
 correlated with the weeks on the billboard most was the spotify
 popularity, which is expected since both are direct measurements of the
-popularity of the album. The correlation was 0.35723461. The variable
+popularity of the album. The correlation was `{r} hcor`. The variable
 that correlated with the weeks on the billboard the least was the years
 between the release date of the album and the first album the artist
 released. This was a bit surprising since people might expect more
 experienced artists to make more popular works. The correlaton was
--0.04631483.
+`{r} lcor`.
 
 Implications of the data: The data could be used to predict the peak
 productivity of artists and determine which artists show the most

@@ -27,7 +27,8 @@ RUN R -e "remotes::install_version('IRkernel', '1.3.2', repos = 'https://cran.r-
     R -e "remotes::install_version('knitr', '1.48', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
     R -e "remotes::install_version('ggpubr', '0.5.0', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
     R -e "remotes::install_version('caret', '6.0-94', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
-    R -e "remotes::install_version('testthat', '3.2.1', repos = 'https://cran.r-project.org', dependencies = TRUE)"
+    R -e "remotes::install_version('testthat', '3.2.1', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
+    R -e "remotes::install_github('DSCI-310-2025/dataletes')"
 
 # Allow jovyan user to use sudo without password
 RUN echo "jovyan ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/jovyan
@@ -46,9 +47,7 @@ RUN mamba install --yes \
 # Create necessary directories for jovyan user
 RUN mkdir -p /home/${NB_USER}/data && \
     mkdir -p /home/${NB_USER}/src && \
-    mkdir -p /home/${NB_USER}/reports && \
-    mkdir -p /home/${NB_USER}/R && \
-    mkdir -p /home/${NB_USER}/tests/testthat
+    mkdir -p /home/${NB_USER}/reports
 
 # Install IRkernel for Jupyter
 RUN R -e "IRkernel::installspec(user = FALSE)"
@@ -59,9 +58,7 @@ RUN fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}" && \
     fix-permissions "/home/${NB_USER}/data" && \
     fix-permissions "/home/${NB_USER}/src" && \
-    fix-permissions "/home/${NB_USER}/reports" && \
-    fix-permissions "/home/${NB_USER}/R" && \
-    fix-permissions "/home/${NB_USER}/tests"
+    fix-permissions "/home/${NB_USER}/reports"
 
 # Install Perl
 RUN apt-get update && apt-get install -y perl=5.38.2-3.2build2.1
@@ -80,8 +77,6 @@ EXPOSE $JUPYTER_PORT
 # Copy project files
 COPY src/*.ipynb /home/${NB_USER}/src/
 COPY src/*.R /home/${NB_USER}/src/
-COPY R/*.R /home/${NB_USER}/R/
-COPY tests/testthat/*.R /home/${NB_USER}/tests/testthat/
 COPY reports/*.qmd /home/${NB_USER}/reports/
 COPY reports/*.bib /home/${NB_USER}/reports/
 COPY Makefile /home/${NB_USER}/
