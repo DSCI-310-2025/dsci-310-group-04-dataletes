@@ -27,7 +27,7 @@ RUN R -e "remotes::install_version('IRkernel', '1.3.2', repos = 'https://cran.r-
     R -e "remotes::install_version('knitr', '1.48', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
     R -e "remotes::install_version('ggpubr', '0.5.0', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
     R -e "remotes::install_version('caret', '6.0-94', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
-    R -e "remotes::install_version('testthat', '3.2.1', repos = 'https://cran.r-project.org', dependencies = TRUE)"
+    R -e "remotes::install_version('testthat', '3.2.1', repos = 'https://cran.r-project.org', dependencies = TRUE)" && \
     R -e "remotes::install_github('DSCI-310-2025/dataletes')"
 
 # Allow jovyan user to use sudo without password
