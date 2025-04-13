@@ -4,6 +4,11 @@ author: "Roy Chen, Ritisha Jhamb, and Aarav Mahajan"
 format:
   html:
     embed-resources: true
+  pdf:
+    fig-pos: "H"
+    include-in-header:
+      text: |
+        \usepackage[font=tiny,labelfont=bf]{caption}
 toc: true
 toc-title: Table of Contents
 bibliography: references.bib
@@ -170,12 +175,45 @@ success, and revealed potential group-level differences that could be
 important for modeling. Overall, the EDA gave a clearer picture of key
 patterns and relationships in the data.
 
-::: {#fig-viz}
+::: {layout-ncol=3 fig-align="center" fig-env="figure"}
 
-![](../data/visualizations.png){#fig-viz}
+![Weeks on Billboard Vs Change in Album's Ranking from 2003 to 2020](../data/visualizationss1.png){#fig-s1}
 
-Scatterplots and boxplots for EDA
+![Weeks on Billboard Vs Release Year](../data/visualizationss2.png){#fig-s2}
+
+![Weeks on Billboard Vs Peak Billboard Position](../data/visualizationss3.png){#fig-s3}
+
+![Weeks on Billboard Vs Spotify Popularity](../data/visualizationss4.png){#fig-s4}
+
+![Weeks on Billboard Vs Artist Member Count](../data/visualizationss5.png){#fig-s5}
+
+![Weeks on Billboard Vs Artist Birth Year Total](../data/visualizationss6.png){#fig-s6}
+
+![Weeks on Billboard Vs Debut Album Release Year](../data/visualizationss7.png){#fig-s7}
+
+![Weeks on Billboard Vs Average Age](../data/visualizationss8.png){#fig-s8}
+
+![Weeks on Billboard Vs Age of the Album Relative to the Debut Album](../data/visualizationss9.png){#fig-s9}
+
+Predictor Analysis
 :::
+
+::: {layout-ncol=3 fig-align="center" fig-env="figure"}
+![Weeks on Billboard By Music Genre of Album](../data/visualizationsb1.png){#fig-b1}
+
+![Weeks on Billboard By Gender](../data/visualizationsb2.png){#fig-b2}
+
+![Weeks on Billboard By Music Presentation](../data/visualizationsb3.png){#fig-b3}
+
+Album Type Analysis
+:::
+
+::: {#fig-barplot}
+![](../data/visualizationsb4.png){#fig-b4}
+
+Predictor Barplot
+:::
+
 ## Predictor Selection and Model Execution
 
 For predictor selection, we focused on identifying variables that had
