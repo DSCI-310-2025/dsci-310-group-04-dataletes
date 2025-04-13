@@ -36,8 +36,8 @@ perr <- round(as.numeric(substr(lines[5], 6, nchar(lines[5])))*100,2)
 ```
 
 Our current model has a prediction error, as measured by the Root Mean
-Squared Error (RMSE), of approximately `{r} rmse` weeks. This model has room
-for improvement, given that the weeks_on_billboard values has an
+Squared Error (RMSE), of approximately `{r} rmse` weeks. This model has
+room for improvement, given that the weeks_on_billboard values has an
 Interquartile range of about `{r} tiqr` weeks.
 
 # Introduction
@@ -52,7 +52,7 @@ influential and celebrated songs according to music critics, artists,
 and industry experts at the time.
 
 | Variable | Class | Description |
-|:------------------|:------------------|:---------------------------------|
+|:---|:---|:---|
 | sort_name | character | Name used for sorting |
 | clean_name | character | Clean name |
 | album | character | Album name |
@@ -96,8 +96,8 @@ chart?
 
 To answer this question, we used a k-nearest neighbors (kNN) regression
 model and data from Rolling Stone's rankings. We found that our model
-has a prediction error of approximately `{r} rmse` weeks, which is reasonable
-given the variability in the data. However, there is room for
+has a prediction error of approximately `{r} rmse` weeks, which is
+reasonable given the variability in the data. However, there is room for
 improvement, as the model explains `{r} perr`% of the variability in
 weeks_on_billboard.
 
@@ -113,7 +113,7 @@ Table 1. Predictor variables used for analysis, chosen for their utility
 by domain expertise.
 
 | Predictor | Description |
-|--------------------------|----------------------------------------------|
+|----|----|
 | release_year | The year the album was released. |
 | peak_billboard_position | The highest position the album reached on the Billboard chart. |
 | spotify_popularity | A measure of the album’s popularity on Spotify (0–100 scale). |
@@ -171,11 +171,11 @@ important for modeling. Overall, the EDA gave a clearer picture of key
 patterns and relationships in the data.
 
 ::: {#fig-viz}
-
 ![](../data/visualizations.png){#fig-viz}
 
 Scatterplots and boxplots for EDA
 :::
+
 ## Predictor Selection and Model Execution
 
 For predictor selection, we focused on identifying variables that had
@@ -202,7 +202,6 @@ to selecting meaningful predictors and building a well-tuned predictive
 model.
 
 ::: {#fig-results}
-
 ![](../results/knn_tuning_results.png){#fig-results}
 
 knn-tuning results
@@ -228,12 +227,8 @@ to imply that artists peak early in their careers. This may imply that
 the conditions required to produce popular music are mainly
 circumstantial and are difficult to recreate. This may raise future
 questions such as whether hiring based on experience is a good practice
-in some industries. 
+in some industries.
 
 # References
 
-@GlobalNews 
-@Morris
-@Bove
-@Richter
-
+@GlobalNews @Morris @Bove @Richter

@@ -58,9 +58,26 @@ if (length(invalid_levels) > 0) {
   stop(paste("ERROR: Invalid category levels in artist_gender:", paste(invalid_levels, collapse = ", ")))
 }
 
-# 8. Basic sanity check: Response variable (weeks_on_billboard) must be >0
-if (any(clean_data$weeks_on_billboard <= 0, na.rm = TRUE)) {
-  stop("ERROR: Non-positive values in weeks_on_billboard detected.")
+# 8. Anomalous correlation between response and nummeric predictors( < 0.01)
+# Check correlation between response and each predictor
+response_var <- "weeks_on_billboard"
+predictors <- c("release_year", "peak_billboard_position", "spotify_popularity", 
+                "debut_album_release_year", "artist_gender", "years_between", 
+                "artist_member_count", "artist_birth_year_sum", "ave_age_at_top_500")
+
+# Only keep numeric ones
+numeric_predictors <- predictors[sapply(clean_data[predictors], is.numeric)]
+
+cor_with_response <- sapply(numeric_predictors, function(col) {
+    cor(clean_data[[response_var]], clean_data[[col]], use = "complete.obs")
+})
+
+# Define a correlation "floor" — flag if abs(cor) is very low (< 0.01)
+low_info_predictors <- names(cor_with_response)[abs(cor_with_response) < 0.01]
+
+if (length(low_info_predictors) > 0) {
+    stop(paste(" Warning: Very weak correlation (< 0.01) with response detected for:",
+                  paste(low_info_predictors, collapse = ", ")))
 }
 
 cat("✅ All data validation checks passed.\n")
