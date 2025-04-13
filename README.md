@@ -2,9 +2,16 @@
 
 Authors: Ritisha Jhamb, Aarav Mahajan, and Roy Chen
 
-## **About**
+## **Summary**
 
-This project builds a regression model using the k-nearest neighbors (kNN) algorithm to predict the number of weeks an album spends on the Billboard chart (weeks_on_billboard). By leveraging data from Rolling Stone’s “500 Greatest Albums of All Time” rankings, alongside information such as Spotify popularity, peak Billboard position, and release year, we aim to identify the key factors that contribute to an album’s longevity on the charts.
+This project builds a regression model using the k-nearest neighbors (kNN) algorithm to predict the number of weeks an album spends on the Billboard chart, using features such as release year, peak chart position, and Spotify popularity. Drawing on Rolling Stone’s "500 Greatest Albums of All Time" dataset, we aim to uncover patterns that explain an album's chart longevity.
+
+Our final model achieved a Root Mean Squared Error (RMSE) of approximately **74.71 weeks**, while the interquartile range of the target variable (`weeks_on_billboard`) is around **50 weeks**, indicating considerable variance and room for improvement. The model explains about **13.95% of the variability**, suggesting only weak linear relationships between predictors and the response.
+
+Interestingly, the strongest positive correlation was with **Spotify popularity**, reinforcing the intuition that streaming relevance maps well to chart success. The weakest was with **artist experience** (measured as the years since debut), which challenges the common belief that veteran artists consistently produce more commercially successful music.
+
+These findings suggest that popularity and exposure may outweigh experience in predicting chart success — a takeaway with potential implications for record labels, marketing teams, and emerging artists alike.
+
 
 ------------------------------------------------------------------------
 
