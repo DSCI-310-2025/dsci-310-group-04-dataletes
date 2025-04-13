@@ -48,6 +48,9 @@ You can use the `Makefile` to automate your workflow. Below are the available ta
 -   `make data/processed/cleaned_data.csv`\
     Cleans the downloaded dataset and saves it to the `data/processed/` directory.
 
+-   `make validate`\
+    Peforms 8 validation checks on the data and prints out a clear message indicating results.
+    
 -   `make data/visualizations.png`\
     Generates a PNG image of exploratory visualizations using the cleaned dataset.
 
