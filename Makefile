@@ -12,20 +12,20 @@ all:    clean \
 
 # download the data from the web
 data/raw/rolling_stone.csv: 
-	Rscript src/download.R https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-07/rolling_stone.csv data/raw/rolling_stone.csv
+	Rscript src/01_download.R https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-07/rolling_stone.csv data/raw/rolling_stone.csv
 
 # clean the downloaded data
 data/processed/cleaned_data.csv: data/raw/rolling_stone.csv
-	Rscript src/clean.R data/raw/rolling_stone.csv data/processed/cleaned_data.csv
+	Rscript src/02_clean.R data/raw/rolling_stone.csv data/processed/cleaned_data.csv
 
 validate: 
-	Rscript src/validate.R data/processed/cleaned_data.csv
+	Rscript src/03_validate.R data/processed/cleaned_data.csv
 
 data/visualizations.png: data/processed/cleaned_data.csv
-	Rscript src/visualize.R data/processed/cleaned_data.csv data/visualizations.png
+	Rscript src/04_visualize.R data/processed/cleaned_data.csv data/visualizations.png
 
 results: data/processed/cleaned_data.csv
-	Rscript src/model.R data/processed/cleaned_data.csv results
+	Rscript src/05_model.R data/processed/cleaned_data.csv results
 
 # render quarto report in HTML and PDF
 reports/analysis.html: data/visualizations.png results reports/output.txt
